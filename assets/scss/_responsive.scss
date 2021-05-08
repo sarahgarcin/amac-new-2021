@@ -1,0 +1,197 @@
+// -------------- TABLET  --------------
+@media only screen and (min-width: 48em){
+	body{
+		background: lightblue;
+	}
+	header{
+		.description{
+			margin-left: $padding*2;
+			p{
+				margin: 0;
+			}
+		}
+	}
+}
+
+// -------------- DESKTOP  --------------
+@media only screen and (min-width: 64em){
+	body{
+		background: lightgreen;
+	}
+	header{
+		.mobile-menu_btn{
+			display:none;
+		}
+
+		.nav{
+			display:flex; 
+			height:auto; 
+			min-height:auto;
+			max-height: none;
+			padding-left: $padding*2;
+			.menu-1::after{
+				content: none;
+			}
+		}
+		.main-nav{
+			margin-top:0;
+		}
+		.main-nav_first-level{
+			display: flex;
+		}
+
+	}
+	
+	body[data-template="home"]{
+		overflow: hidden;
+		.description-amac{
+			margin-top: -40px;
+		}
+		.text-production{
+			padding-left: 0;
+		}
+		.actu-grid{
+			.actu-wrapper{
+				position:relative; 
+				max-height: 250px;
+			}
+			.button-actu{
+				display:block;
+				position:absolute;
+				color:$corail;
+				font-size: 1.3em;
+				z-index: 1001;
+				top: 10px; 
+				right: 30px;
+				cursor:pointer;
+				&.opened{
+					top:0px;
+					right:25px;
+				}
+			}
+			ul > li{
+				position: absolute;
+				cursor: move;
+				width: 25em;
+				&:first-child{
+					top: 10vh;
+					left: 35vw;
+				}
+				&:nth-child(2){
+					top: 30vh;
+					left: 66vw;
+				}
+				&:nth-child(3){
+					top: 20vh;
+					left: 3vw;
+				}
+			}
+
+			.actu-texte{	
+				position:relative;
+				z-index:999;
+				padding-right: 25px;
+				&:hover{
+					z-index:1000;
+				}
+			}
+			.actu-image{
+				position:relative;
+				top:-100px;
+				z-index:998;
+				left: 50%;
+				&.portrait{
+					left: 80%;
+					width: 70%;
+				}
+				&:hover{
+					z-index:1000;
+				}
+			}
+		}
+	}
+
+	body[data-template="projets"]{
+		.content .actu-grid{
+			padding: 0 $padding*4;
+			li{
+				cursor: move;
+				.actu-wrapper{position: relative;}
+				.actu-texte{
+					opacity:0;
+					position: absolute;
+					z-index:999;
+					top:0;
+					left:0;
+					right:0;
+					min-height: 100%;
+					transition: all 0.3s ease;
+					&:hover{
+						z-index:1000;
+					}
+				}
+				.actu-image{
+					transition: all 0.3s ease;
+					// position:absolute;
+					// top:0;
+					// left:0;
+					// z-index:998;
+					// opacity: 0;
+					&:hover{
+						z-index:1000;
+					}
+				}
+			}
+		}
+	}
+
+	body[data-template="journal"]{
+		.actu-grid{
+			.actu-images{
+				li{
+					position: absolute;
+					top: $padding; 
+					left: -100%;
+				}
+			}
+		}
+	}
+
+	body[data-template="error"]{
+	canvas {
+		display:block;
+	}
+}
+
+
+
+	body[data-template="page"], 
+	body[data-template="journal"],
+	body[data-template="actu"],  
+	body[data-template="default"], 
+	body[data-template="contact"],
+	body[data-template="error"],
+	body[data-template="equipe"],
+	body[data-template="projet"],
+	body[data-template="projets"],
+	body[data-template="references"],
+	body[data-template="newsletter"]{
+		.content{
+			h1{
+				padding: 0;
+				font-size: $h1;
+				position:absolute;
+				z-index:997;
+				// width: 1000px;
+				margin: 0;
+			}
+			h1.h1-clone{
+				text-align: right;
+				display: block;
+				max-width: 33.333%;
+				overflow-wrap: break-word;
+			}
+		}
+
+	}
+}

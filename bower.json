@@ -1,0 +1,13 @@
+{
+  "name": "Base",
+  "description": "Bower de base",
+  "authors": [
+    "maitre du monde"
+  ],
+  "private": true,
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "font-awesome": "fontawesome#~4.4.0",
+    "foundation": "~5.5.3"
+  }
+}

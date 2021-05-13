@@ -1,6 +1,7 @@
 var windowW = $(window).width();
 var windowH = $(window).height();
 var corail = "#EA6358";
+
 $(document).ready(function(){
 	$(window).load(function(){
 		$('.content').fadeIn(600);
@@ -30,17 +31,7 @@ $(document).ready(function(){
 
 	});
 
-
-	// $(document).foundation();
-
-	// if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || windowW <= 1024) {
-	// 	initMob();
-	// 	console.log("mobile");
-	// }
-	// else{
-	// 	console.log("screen", screen.width);
-		init();
-	// }
+	init();
 
 });
 
@@ -48,31 +39,18 @@ function init(){
 	$(window).on('load', function(){
 		randomTitlePos();
 	});
-	// randomTitlePos();
-	// $(window).resize(function(event) {
-	// 	randomTitlePos();
-	// });
 
 	if($('body').attr('data-template') == 'home'){
-		console.log('home');
-		// $(window).on('load',function(){
-		// 	// ajouter tous les éléments à éviter
-		// 	var elementsHome = {
-		// 		element1: $("header .description"), 
-		// 		element2: $("header nav"),
-		// 		element3: $(".text-production"),
-		// 		element4: $(".text-formation"),
-		// 		element5: $(".description-amac")
-		// 	};
-		// 	$(".images-grid li").amac(elementsHome, 100);
-		// 	$(".images-grid li").draggable();
-		// });
-
 		toogleInfo();
-
-		$(".actu-grid > ul > li").each(function(){
-			$(this).draggable();
-		});
+		if ("ontouchstart" in document.documentElement){
+			console.log('touchy');
+		}
+		else{
+			console.log('not touchy');
+			$(".actu-grid > ul > li").each(function(){
+				$(this).draggable({ containment: "body", scroll: false });
+			});
+		}
 	}
 
 	if($('body').attr('data-template') == 'journal'){
@@ -108,9 +86,14 @@ function init(){
 		// 	$(".actu-images li").amac(elementsJournal, 0);
 		// });
 
-		$(".actu-images li").each(function(){
-			$(this).draggable();
-		});
+		if ("ontouchstart" in document.documentElement){
+		}
+		else{
+			$(".actu-images li").each(function(){
+				$(this).draggable();
+			});
+		}
+
 	}	
 
 	if($('body').attr('data-template') == 'projets'){
@@ -148,32 +131,46 @@ function init(){
 
 		$(window).on('load',function(){
 			// $(".images-grid li").amac(elementsProj, 100);
-			$(".images-grid li").each(function(){
-				// var contentW = $('.content').innerWidth();
-				// var contentH = $('.content').innerHeight();
-				// var randomTop = Math.floor(Math.random() * (60 + 60)) - 60;
-				// $(this).css({
-				// 	'margin-top': randomTop + 'px',
-				// })
-
-				// var imageW = $(this).find('.actu-image').outerWidth();
-				// var imageH = $(this).find('.actu-image').outerHeight();
-
-				// $(this).find('.actu-texte').css("width", imageW);
-				// $(this).find('.actu-texte').css("height", imageH);
-
-				$(this).mouseenter(function(){
-					$(this).find('.actu-texte').css("opacity", 1);
+			if(windowW > 1024){
+				$(".images-grid li").each(function(){
+					$(this).mouseenter(function(){
+						$(this).find('.actu-texte').css("opacity", 1);
+					});
+					$(this).mouseleave(function(){
+						$(this).find('.actu-texte').css("opacity", 0);
+					});
 				});
-				$(this).mouseleave(function(){
+			}
+		});
+
+		$(window).resize(function(){
+			if($(window).width() > 1024){
+				$(".images-grid li").each(function(){
 					$(this).find('.actu-texte').css("opacity", 0);
+					$(this).mouseenter(function(){
+						$(this).find('.actu-texte').css("opacity", 1);
+					});
+					$(this).mouseleave(function(){
+						$(this).find('.actu-texte').css("opacity", 0);
+					});
 				});
-			});
+			}
+			else{
+				$(".images-grid li").each(function(){
+					$(this).find('.actu-texte').css("opacity", 1);
+					$(this).unbind("mouseenter");
+					$(this).unbind("mouseleave");
+				});
+			}
 		});
 
 		// toogleInfo();
-
-		$(".images-grid li").draggable();
+		if ("ontouchstart" in document.documentElement){
+			console.log('touchy');
+		}
+		else{
+			$(".images-grid li").draggable();
+		}
 
 	}		
 
@@ -297,6 +294,14 @@ function init(){
 
 		// });
 	}
+
+
+// Detect touch devices
+function isTouchDevice() {
+  return (('ontouchstart' in window) ||
+     (navigator.maxTouchPoints > 0) ||
+     (navigator.msMaxTouchPoints > 0));
+}
 
 
 // ------ JOURNAL ------

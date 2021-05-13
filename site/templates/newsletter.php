@@ -9,7 +9,7 @@
 				<?php echo $page->text()->kirbytext()?>
 			</div>
 		</div>
-		<div class="form col-xs-12 col-sm-8 col-sm-offset-2">
+		<div class="form col-xs-12 col-sm-6 col-sm-offset-3">
 			<div class="mailchimp-form">
 				<?php snippet('form') ?>
 			</div>

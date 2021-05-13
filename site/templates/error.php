@@ -19,5 +19,4 @@
 
 <?php snippet('footer') ?>
 
-<?= js('assets/js/libs/virtualjoystick.js') ?>
-<?= js('assets/js/libs/raphael.js') ?>
+<?= js('assets/js/snake.js') ?>

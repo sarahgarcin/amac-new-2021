@@ -9,9 +9,9 @@
 						<div class="row">
 							<div class="ress-icon col-xs-2 col-sm-3">
 								<?php if($ressource['type'] == "doc"): ?>
-									<img src="/assets/images/ressources.png" alt="ressources icône">
+									<img src="<?php echo $site->url()?>/assets/images/ressources.png" alt="ressources icône">
 								<?php else : ?>
-									<img src="/assets/images/liens.png" alt="liens icône">
+									<img src="<?php echo $site->url()?>/assets/images/liens.png" alt="liens icône">
 								<?php endif ?>
 							</div>
 							<div class="ress-caption col-xs-10 col-sm-8">

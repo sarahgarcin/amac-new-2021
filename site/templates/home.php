@@ -2,11 +2,12 @@
 <?php snippet('head') ?>
 <?php $count = 0; ?>
 
-<div class="description-amac col-xs-12 col-sm-5 col-md-4 col-md-offset-1">
-	<?php echo $page->description()->kirbytext()?>
-</div>
+
 <main class="content">
-	<div class="text-menu row col-xs-12 col-sm-10 col-md-offset-1">
+	<div class="description-amac col-xs-12 col-sm-6 col-md-4">
+		<?php echo $page->description()->kirbytext()?>
+	</div>
+	<div class="text-menu row col-xs-12 col-sm-12 col-md-10">
 		<div class="text-production col-xs-12 col-sm-6 col-md-5">
 			<?php echo $page->production()->kirbytext()?>
 		</div>

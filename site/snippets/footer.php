@@ -1,6 +1,6 @@
 
   <footer role="contentinfo">
-    <p><a href="/credits" title="Crédits"><?php echo $site->copyright() ?></a></p>
+    <p><a href="<?php echo $site->url()?>/credits" title="Crédits"><?php echo $site->copyright() ?></a></p>
   </footer>
 
   <!-- scripts -->
@@ -12,7 +12,6 @@
   <?= js('bower_components/modernizr/modernizr.js') ?>
   <?= js('bower_components/foundation/js/foundation.js') ?>
   <?= js('bower_components/foundation/js/foundation/foundation.clearing.js') ?>
-  <?= js('assets/js/snake.js') ?>
   <?= js('assets/js/main.js') ?>
 
   <?php else: ?>

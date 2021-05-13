@@ -1,8 +1,6 @@
 // I M P O R T
-//@import "../../bower_components/foundation/scss/foundation.scss";
 @import "../../bower_components/foundation/scss/normalize.scss";
 @import "../../bower_components/font-awesome/scss/font-awesome.scss";
-//@import "../../bower_components/foundation/scss/foundation/components/clearing";
 @import "_variables.scss";
 
 *{
@@ -31,7 +29,7 @@ img{
 h1, h2, h3, h4, h5, h6{font-family: 'maison', sans-serif;}
 h1{font-size:$h1small; text-transform:uppercase; line-height:1;}
 h2{font-size:$h2; text-transform:uppercase;}
-h3{font-size:$h3;} h4,h5,h6{font-size:$text;}
+h3{font-size:$h3; font-weight: normal;} h4,h5,h6{font-size:$text;}
 h4{
 	color: $corail;
 	margin-top: $padding;
@@ -73,10 +71,23 @@ blockquote{
 	}
 }
 
+input[type='radio']{
+	margin-right: $padding/2;
+}
+
+input[type='button'], #mc_embed_signup .button{
+	background-color: $corail !important;
+}
+
+main{
+	max-width: 100em;
+	width:100%;
+}
+
 // HEADER
 header{
 	width: 100%;
-	max-width: 100%;
+	max-width: 100em;
 	left:0;
 	top:0;
 	position: relative; 
@@ -136,7 +147,7 @@ header{
 		width: 100%;
 		font-size: $menu;
 		line-height: 1.1;
-		transition: all 1s linear;
+		transition: max-height 0.8s linear;
 		&.active{
 			max-height: 100vh; 
 			overflow: auto;
@@ -176,7 +187,7 @@ header{
 // FOOTER
 footer{
 	position: relative;
-	left: 62.5vw;
+	left: 18px;
 	display:inline-block;
 	width:auto;
 	p, a{
@@ -239,6 +250,7 @@ footer{
 				a{text-decoration: none;}
 				.ress-icon{
 					padding-left: 0;
+					max-width: 64px;
 				}
 				.ress-caption{
 					padding: 0;
@@ -260,19 +272,29 @@ footer{
 		padding: $padding;
 		color: $corail;
 		background:#FFF;
+		position: relative;
 		h2,h3,h4,h5{
 			color: $corail;
 			font-size: $menu;
 			margin:0;
 		}
 		p{
-			font-size: $menu;
+			&:after{
+				content: "";
+				display: block; 
+				height: $padding*2;
+			}
 		}
 		.date-actu{
 			text-decoration: underline;
+			position: absolute; 
+			bottom: $padding;
+			left: $padding;
 		}
 		.lire-plus{
-			float: right;
+			position: absolute; 
+			bottom: $padding;
+			right: $padding;
 		}
 	}
 	.actu-image{
@@ -289,7 +311,6 @@ footer{
 
 // -------------- HOME -------------- 
 body[data-template="home"]{
-
 	.description-amac{
 		font-size: $menu;
 		color: $corail;
@@ -303,94 +324,6 @@ body[data-template="home"]{
 			font-size: 1.5em;
 			margin-bottom: 0px;
 		}
-	}
-	// .images-grid{
-	// 	li{
-	// 		position:absolute;
-	// 		z-index: 998;
-	// 		cursor:move;
-	// 		&:hover{
-	// 			z-index:999;
-	// 		}
-	// 	}
-	// }
-	// .actu-grid{
-	// 	> ul > li{
-	// 		position:absolute;
-	// 		top:0;
-	// 		margin-right: 5%;
-	// 		&:first-child{
-	// 			top: 10vh;
-	// 			left: 65vh;
-	// 		}
-	// 		&:nth-child(2){
-	// 			top: 20vh;
-	// 			left: 120vh;
-	// 		}
-	// 		&:hover{
-	// 			cursor: move;
-	// 		}
-	// 		a:hover{text-decoration:none;}
-	// 		.actu-wrapper{position:relative; max-height:250px;}
-	// 		.actu-texte{
-	// 			border: $border solid $corail;
-	// 			padding: 12px $padding;
-	// 			color: $corail;
-	// 			background:#FFF;
-	// 			position:relative;
-	// 			z-index:999;
-	// 			&:hover{
-	// 				z-index:1000;
-	// 			}
-	// 			h2,h3,h4,h5{
-	// 				color: $corail;
-	// 				font-size: $menu;
-	// 				margin:0;
-	// 			}
-	// 			p{
-	// 				font-size: $menu;
-	// 			}
-	// 			.date-actu{
-	// 				text-decoration: underline;
-	// 				display:block;
-	// 				float:left;
-	// 			}
-	// 			.lire-plus{
-	// 				float:right;
-	// 				display:block;
-	// 			}
-	// 		}
-	// 		.actu-image{
-	// 			border: $border solid $corail;
-	// 			position:relative;
-	// 			left: 50%;
-	// 			top:-150px;
-	// 			width:100%;
-	// 			z-index:998;
-	// 			&:hover{
-	// 				z-index:1000;
-	// 			}
-	// 		}
-	// 		.button-actu{
-	// 			position:absolute;
-	// 			color:$corail;
-	// 			font-weight: bold;
-	// 			font-size: 1.3em;
-	// 			z-index: 1001;
-	// 			top:19px;
-	// 			right:25px;
-	// 			cursor:pointer;
-	// 		}
-	// 		.open-actu{
-	// 			display:none;
-	// 		}
-
-	// 	}
-	// }
-
-	footer{
-		position:fixed;
-		bottom: 0;
 	}
 }
 
@@ -441,7 +374,6 @@ body[data-template="projets"]{
 				// 	z-index:1001;
 				// }
 				.actu-texte{
-					border: $border solid $corail;
 					padding: $padding;
 					color: $corail;
 					background:#FFF;
@@ -483,16 +415,6 @@ body[data-template="projets"]{
 							text-decoration: underline;
 						}
 					}
-				}
-				.actu-image{
-					border: $border solid $corail;
-					// position:absolute;
-					// top:0;
-					// left:0;
-					// z-index:998;
-					// &:hover{
-					// 	z-index:1000;
-					// }
 				}
 			}
 		}

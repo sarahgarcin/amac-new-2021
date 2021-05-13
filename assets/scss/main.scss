@@ -263,10 +263,10 @@ footer{
 .actu-grid{
 	margin-top: $padding *4;
 	ul{padding: 0;}
-	li{
-		margin-bottom: $padding * 2;
+	li{margin-bottom: $padding * 2;}
+	.button-actu{
+		display:none;
 	}
-	.button-actu{display:none;}
 	.actu-texte{
 		border: $border solid $corail;
 		padding: $padding;
@@ -305,7 +305,6 @@ footer{
 			width: 50%;
 		}
 	}
-
 }
 
 

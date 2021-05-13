@@ -3004,7 +3004,9 @@ body[data-template="error"] {
   body[data-template="home"] .text-menu {
     margin-left: 60px; }
   body[data-template="home"] .actu-grid {
-    margin-left: 60px; } }
+    margin-left: 60px; }
+  .actu-grid li .actu-image.portrait {
+    width: 100%; } }
 
 @media only screen and (min-width: 64em) {
   header .mobile-menu_btn {
@@ -3031,21 +3033,6 @@ body[data-template="error"] {
       margin-top: -40px; }
     body[data-template="home"] .actu-grid {
       margin-left: 0; }
-      body[data-template="home"] .actu-grid .actu-wrapper {
-        position: relative;
-        max-height: 250px; }
-      body[data-template="home"] .actu-grid .button-actu {
-        display: block;
-        position: absolute;
-        color: #EA6358;
-        font-size: 1.3em;
-        z-index: 1001;
-        top: 10px;
-        right: 30px;
-        cursor: pointer; }
-        body[data-template="home"] .actu-grid .button-actu.opened {
-          top: 0px;
-          right: 25px; }
       body[data-template="home"] .actu-grid ul > li {
         position: absolute;
         cursor: move;
@@ -3059,22 +3046,44 @@ body[data-template="error"] {
         body[data-template="home"] .actu-grid ul > li:nth-child(3) {
           top: 20vh;
           left: 3vw; }
-      body[data-template="home"] .actu-grid .actu-texte {
-        position: relative;
-        z-index: 999;
-        padding-right: 25px; }
-        body[data-template="home"] .actu-grid .actu-texte:hover {
-          z-index: 1000; }
-      body[data-template="home"] .actu-grid .actu-image {
-        position: relative;
-        top: -100px;
-        z-index: 998;
-        left: 50%; }
-        body[data-template="home"] .actu-grid .actu-image.portrait {
-          left: 80%;
-          width: 70%; }
-        body[data-template="home"] .actu-grid .actu-image:hover {
-          z-index: 1000; }
+        body[data-template="home"] .actu-grid ul > li.not-active {
+          background: #EA6358; }
+          body[data-template="home"] .actu-grid ul > li.not-active h2, body[data-template="home"] .actu-grid ul > li.not-active .button-actu {
+            color: #FFF; }
+          body[data-template="home"] .actu-grid ul > li.not-active .actu-texte {
+            background: transparent; }
+            body[data-template="home"] .actu-grid ul > li.not-active .actu-texte p, body[data-template="home"] .actu-grid ul > li.not-active .actu-texte .actu-infos {
+              display: none; }
+          body[data-template="home"] .actu-grid ul > li.not-active .actu-image {
+            display: none; }
+        body[data-template="home"] .actu-grid ul > li .button-actu {
+          display: block;
+          position: absolute;
+          color: #EA6358;
+          font-size: 1.3em;
+          z-index: 1001;
+          top: 10px;
+          right: 30px;
+          cursor: pointer; }
+        body[data-template="home"] .actu-grid ul > li .actu-wrapper {
+          position: relative;
+          max-height: 250px; }
+          body[data-template="home"] .actu-grid ul > li .actu-wrapper .actu-texte {
+            position: relative;
+            z-index: 999;
+            padding-right: 25px; }
+            body[data-template="home"] .actu-grid ul > li .actu-wrapper .actu-texte:hover {
+              z-index: 1000; }
+          body[data-template="home"] .actu-grid ul > li .actu-wrapper .actu-image {
+            position: relative;
+            top: -100px;
+            z-index: 998;
+            left: 50%; }
+            body[data-template="home"] .actu-grid ul > li .actu-wrapper .actu-image.portrait {
+              left: 80%;
+              width: 70%; }
+            body[data-template="home"] .actu-grid ul > li .actu-wrapper .actu-image:hover {
+              z-index: 1000; }
     body[data-template="home"] footer {
       position: absolute;
       bottom: 0; }
@@ -3082,6 +3091,8 @@ body[data-template="error"] {
     padding: 0 60px; }
     body[data-template="projets"] .content .actu-grid li {
       cursor: move; }
+      body[data-template="projets"] .content .actu-grid li:hover .actu-texte {
+        opacity: 1; }
       body[data-template="projets"] .content .actu-grid li .actu-wrapper {
         position: relative;
         height: 30vw;

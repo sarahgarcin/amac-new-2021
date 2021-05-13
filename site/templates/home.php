@@ -24,16 +24,15 @@
 			<?php if($actu->accueil() == "oui") : ?>
 				<?php $count ++;?>
 				<?php if($count < 4) : ?>
-					<li class="col-xs-12 col-sm-6 col-md-3 active">
-						<span class="close-actu button-actu opened">x</span>
-						<!-- <span class="open-actu button-actu">↓</span> -->
+					<li class="col-xs-12 col-sm-6 col-md-3 draggable">
+						<span class="button-actu">x</span>
 							<div class="actu-wrapper">
 								<div class="actu-texte">
 									<h2><?php echo $actu->title()->html() ?></h2>
-									<p><?php echo excerpt($actu->text()->kirbytext(), 200, false) ?></p>
+									<!-- <p><?php //echo excerpt($actu->text()->kirbytext(), 200, false) ?></p> -->
+									<?php echo truncate($actu->text()->kirbytext(), 200, '…', false, true); ?>
 									<div class="actu-infos">
 										<span class="date-actu"><?php echo $actu->date('d / m / Y')?></span>
-										<!-- <a class="lire-plus" href="<?php echo $pages->find('journal')->url()?>#<?php echo $actu->uid()?>" title="<?php echo $actu->title()?>">Lire la suite</a> -->
 										<a class="lire-plus" href="<?php echo $actu->url()?>" title="<?php echo $actu->title()?>">Lire la suite</a>
 									</div>
 								</div>

@@ -1,5 +1,4 @@
 // I M P O R T
-@import "../../bower_components/foundation/scss/normalize.scss";
 @import "../../bower_components/font-awesome/scss/font-awesome.scss";
 @import "_variables.scss";
 
@@ -190,10 +189,11 @@ footer{
 	left: 18px;
 	display:inline-block;
 	width:auto;
+	margin: 40px 0 $padding 0;
 	p, a{
 		color: $corail;
-		font-size:$text;
-		text-decoration:none
+		font-size:13px;
+		text-decoration:none;
 	}
 }
 
@@ -217,14 +217,6 @@ footer{
 		}
 	}
 }
-
-// .row{
-// 	max-width: 100%;
-// 	padding: $padding;
-// 	.columns{
-// 		padding: $padding /2;
-// 	}
-// }
 
 //----- Ressources -----
 .content{
@@ -343,12 +335,9 @@ body[data-template="newsletter"]{
 		position: relative;
 		h1{
 			padding: 0 $padding;
-			// position:absolute;
 			color: $corail;
 			font-weight: bold;
 			text-transform:uppercase;
-			// z-index:997;
-			// width: 1000px;
 		}
 		h1.h1-clone{
 			display: none;
@@ -358,32 +347,15 @@ body[data-template="newsletter"]{
 }
 
 body[data-template="projets"]{
-	// width:100vw;
 	.content{
 		min-height: 75vh;
 		.images-grid{
 			li{
-				// position:absolute;
-				// cursor:move;
-				// padding:0;
-				// .actu-wrapper{
-				// 	margin-top: -20px;
-				// }
-				// &:hover{
-				// 	z-index:1001;
-				// }
 				.actu-texte{
 					padding: $padding;
 					color: $corail;
 					background:#FFF;
 					position:relative;
-					// opacity:0;
-					// z-index:999;
-					// top:-20px;
-					// left:0;
-					// &:hover{
-					// 	z-index:1000;
-					// }
 					h2,h3,h4,h5{
 						color: $corail;
 						font-size: $menu;
@@ -399,7 +371,6 @@ body[data-template="projets"]{
 					.date-actu{
 						text-decoration: underline;
 						display:block;
-						// position:absolute;
 						left: $padding;
 						bottom: $padding;
 					}
@@ -407,9 +378,6 @@ body[data-template="projets"]{
 						display:block;
 						color:#000;
 						text-decoration: none;
-						// position:absolute;
-						// bottom: $padding;
-						// right: $padding;
 						&:hover{
 							text-decoration: underline;
 						}
@@ -424,112 +392,18 @@ body[data-template="projet"]{
 	.images-projet{
 		padding:0px;
 		padding-top: $padding;
-		margin-left: 1rem;
-		li{
-			cursor:pointer;
-			padding: 15px 15px 0px 0px;
-		}
-		img{
-			width:auto;
+		// margin-left: 1rem;
+		figure{
+			margin: 0;
+			padding-left:$padding;
+			padding-right:0;
+			padding-top:$padding;
 		}
 		.row{
 			margin: 0px;
 			padding:0px;
 		}
 	}
-	// custom caroussel
-	.clearing-blackout{
-		background:rgba(0,0,0,0.5);
-		z-index:1200;
-		.carousel{
-			display:none;
-		}
-		.clearing-close{
-			color:$corail;
-			&:hover{
-				text-decoration:none;
-			}
-		}
-	}
-	.clearing-assembled {
-		.clearing-container {
-			.visible-img{
-				height:100%;
-				background:rgba(0,0,0,0.5);
-			}
-			.clearing-main-prev, .clearing-main-next{
-				&.disabled{
-					display:none;
-				}
-			}
-			.clearing-main-next > span{
-					border-left-color:$corail;
-			}
-			.clearing-main-prev > span{
-					border-right-color:$corail;
-			}
-
-		}
-	}
-}
-
-body[data-template="page"], body[data-template="projet"]{
-	// .content{
-	// 	.chapeau-page{
-	// 		font-size: $menu;
-	// 		p{
-	// 			@extend .hyphen;
-	// 		}
-
-	// 	}
-	// 	.texte-courant-page{
-	// 		margin-top: $padding;
-	// 		h4{
-	// 			color: $corail;
-	// 			margin-top: $padding;
-	// 			margin-bottom: 0px;
-	// 			font-weight: bold;
-	// 		}
-	// 		ul{margin-left:20px;}
-	// 		li{
-	// 			list-style: disc;
-
-	// 			// &:before{
-	// 			// 	content: '•';
-	// 		 //    margin-right: 15px;
-	// 			// }
-	// 		}
-	// 		p{@extend .hyphen;}
-	// 	}
-	// 	.infos-page{
-	// 		margin-top: $padding;
-	// 		color: $corail;
-	// 		font-size:$text;
-	// 		h4,h5,h6{color:$corail; font-weight:bold; margin:0px;}
-	// 		a{color: $corail;font-size:$text; text-decoration:underline; &:hover{text-decoration:underline;}}
-	// 		li{margin-bottom:1.25rem;}
-	// 		.infos-ressources{
-	// 			border: $border solid $corail;
-	// 			padding: $padding;
-	// 			li{
-	// 				padding:0 15px;
-	// 				margin-bottom:0;
-	// 				word-wrap: break-word;
-	// 				div{
-	// 					padding:15px 0px 0px 0px;
-	// 					&.ress-caption{
-	// 						max-width: 100%;
-	// 					}
-	// 					&.ress-icon{
-	// 						img{
-	// 							width: 85%;
-	// 						}
-	// 					}
-	// 				}
-	// 			}
-	// 		}
-	// 	}
-	// }
 }
 
 body[data-template="journal"]{
@@ -554,12 +428,8 @@ body[data-template="journal"]{
 				}
 				.arrow-wrapper{
 					.arrow{
-						.open{
-							display:none;
-						}
-						.close{
-							display:block;
-						}
+						.open{display:none;}
+						.close{display:block;}
 					}
 				}
 			}
@@ -641,53 +511,6 @@ body[data-template="contact"]{
 			display:block;
 		}
 	}
-	.form{
-		margin-top: 40px;
-		form{
-			#mc_embed_signup_scroll{
-				h3{
-					color: #000;
-					font-weight: bold;
-					margin-bottom: $padding;
-					&:after{content:""}
-				}
-				.mc-field-group{
-					padding-bottom: $padding;
-					input{
-						border:$border solid #000;
-						margin-bottom: 0;
-					}
-					&.input-group{
-						.fav-format{
-							float:left;
-						}
-						ul {
-							float:right;
-							padding: 0px;
-							margin-top: -2px;
-							li{
-								display:inline-block;
-								padding: 0px;
-								label{color: #000;}
-							}
-						}
-					}
-				}
-				.button{
-					background-color: #FFF;
-					border: $border solid $corail;
-					color: #000;
-					float: right;
-					border-radius: 0px;
-					line-height:0;
-					height:0;
-					padding-top:$padding;
-					padding-bottom:$padding;
-					&:hover{color: $corail;}
-				}
-			}
-		}
-	}
 }
 
 body[data-template="equipe"]{
@@ -743,46 +566,6 @@ body[data-template="error"]{
 	canvas {
 		display:none;
   	border: 2px solid $corail;
-	}
-}
-
-
-
-
-//GRID
-//gouttière 15px
-//marges 15px gauche droite et haut
-.dev-grid{
-	display:none;
-	border: 1px solid #008AA1;
-	height: 100vh;
-	margin: $padding;
-	position:fixed;
-	width:100%;
-	top:0;
-	left:0;
-	pointer-events:none;
-	.dev-text-grid, .dev-image-grid{
-		padding: $padding;
-		max-width: 100%;
-		height: 100%;
-		position:fixed;
-		top:0;
-		left:0;
-		pointer-events:none;
-		&>div{
-			border-right: 1px solid #008AA1;
-			height:100%;
-		}
-	}
-	.dev-image-grid {
-		margin-left:4.16665% ;
-		&>div{
-			border-color: #A10078;
-			&:first-child{
-				border-left: 1px solid #A10078;
-			}
-		}
 	}
 }
 

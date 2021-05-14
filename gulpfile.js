@@ -20,6 +20,10 @@ write your local dev url in the localDevUrl variable.
 
 var pluginsScripts = [
   'bower_components/jquery/dist/jquery.min.js',
+  'bower_components/jquery-ui/jquery-ui.min.js',
+  'assets/js/libs/jquery.ui.touch-punch.min.js',
+  'bower_components/photoswipe/dist/photoswipe.min.js',
+  'bower_components/photoswipe/dist/photoswipe-ui-default.min.js'
 ];
 var userScripts = [
   'assets/js/main.js'

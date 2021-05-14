@@ -9,5 +9,8 @@
     "jquery": "~2.1.4",
     "font-awesome": "fontawesome#~4.4.0",
     "foundation": "~5.5.3"
+  },
+  "dependencies": {
+    "photoswipe": "^4.1.3"
   }
 }

@@ -10,6 +10,8 @@
 
   <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
 
+  <?php echo css('bower_components/photoswipe/dist/photoswipe.css') ?>
+  <?php echo css('bower_components/photoswipe/dist/default-skin/default-skin.css') ?>
   <?php echo css('assets/css/flexboxgrid.min.css') ?>
   <?php echo css('assets/css/main.css') ?>
 

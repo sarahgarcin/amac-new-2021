@@ -8,6 +8,10 @@
 			}
 		}
 	}
+
+	.content h1{
+		text-align: center;
+	}
 	body[data-template="home"]{
 		.text-production{
 			padding-left: 0;
@@ -27,9 +31,6 @@
 
 // -------------- DESKTOP  --------------
 @media only screen and (min-width: 64em){
-	body{
-		// background: lightgreen;
-	}
 	header{
 		.mobile-menu_btn{
 			display:none;
@@ -210,6 +211,7 @@
 	body[data-template="newsletter"]{
 		.content{
 			h1{
+				text-align: left;
 				padding: 0;
 				font-size: $h1;
 				position:absolute;

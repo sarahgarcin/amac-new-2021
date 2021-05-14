@@ -29,8 +29,8 @@
 							<div class="actu-wrapper">
 								<div class="actu-texte">
 									<h2><?php echo $actu->title()->html() ?></h2>
-									<!-- <p><?php //echo excerpt($actu->text()->kirbytext(), 200, false) ?></p> -->
-									<?php echo truncate($actu->text()->kirbytext(), 200, '…', false, true); ?>
+									<p><?php echo excerpt($actu->text()->kirbytext(), 200, false) ?></p>
+		<!-- 							<?php //echo truncate($actu->text()->kirbytext(), 200, '…', false, true); ?> -->
 									<div class="actu-infos">
 										<span class="date-actu"><?php echo $actu->date('d / m / Y')?></span>
 										<a class="lire-plus" href="<?php echo $actu->url()?>" title="<?php echo $actu->title()?>">Lire la suite</a>

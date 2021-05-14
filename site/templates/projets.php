@@ -11,7 +11,8 @@
 						<div class="actu-texte">
 							<h2><?php echo $project->title()->html() ?></h2>
 							<div>
-								<?php echo truncate($project->text()->kirbytext(), 200, '…', false, true); ?>
+								<!-- <?php //echo truncate($project->text()->kirbytext(), 200, '…', false, true); ?> -->
+								<p><?php echo excerpt($project->text(), 200) ?></p>
 							</div>
 							<div class="actu-infos" >
 								<span class="date-actu"><?php echo $project->date('d / m / Y')?></span>

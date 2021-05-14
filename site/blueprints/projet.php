@@ -33,21 +33,20 @@ fields:
     label: Ressources
     type: structure
     entry: >
-      {{file}} {{legende}}
+      {{file}} {{link}} <br> {{legende}}
     fields:
       file:
-        label: nom du fichier
-        type: text
+        label: Choisir le pdf 
+        type: select
+        options: documents
+        help : choisir un pdf ici, si la ressource désirée est un document pdf
+      link:
+        label: Lien 
+        type: url
+        help : ajouter une url ici, si la ressource désirée est un site web
       legende:
         label: Légende
-        type: text
-      type:
-        label: Lien ou document ?
-        type: radio
-        options:
-          link: Lien
-          doc: Document
-        help: Choisir le type de document à ajouter
+        type: markdown
   accueil:
     label: Projets à afficher sur la page d'accueil
     type: radio

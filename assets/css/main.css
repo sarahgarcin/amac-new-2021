@@ -2288,6 +2288,8 @@ footer {
         max-width: 64px; }
       .content .infos-page .infos-ressources li .ress-caption {
         padding: 0; }
+        .content .infos-page .infos-ressources li .ress-caption p {
+          margin: 0; }
 
 .actu-grid {
   margin-top: 60px; }

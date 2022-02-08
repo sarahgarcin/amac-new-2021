@@ -39,7 +39,7 @@ function init(){
 	});
 
 	// DRAGGABLE ELEMENTS
-	if ("ontouchstart" in document.documentElement){
+	if ("ontouchstart" in document.documentElement && windowW < 768){
 		console.log('touchy');
 	}
 	else{

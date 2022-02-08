@@ -71,7 +71,7 @@
 				cursor: move;
 				width: 25em;
 				&:first-child{
-					top: 10vh;
+					top: 20vh;
 					left: 35vw;
 				}
 				&:nth-child(2){
@@ -79,7 +79,7 @@
 					left: 66vw;
 				}
 				&:nth-child(3){
-					top: 20vh;
+					top: 13vh;
 					left: 3vw;
 				}
 				// si l'actu est cachée
@@ -175,6 +175,12 @@
 					}
 				}
 			}
+		}
+	}
+
+	body[data-template="projet"]{
+		.content .infos-page p{
+			font-size: 13px;
 		}
 	}
 

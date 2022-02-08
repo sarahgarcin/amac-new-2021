@@ -8,10 +8,10 @@
 		<?php echo $page->description()->kirbytext()?>
 	</div>
 	<div class="text-menu row col-xs-12 col-sm-12 col-md-10">
-		<div class="text-production col-xs-12 col-sm-6 col-md-5">
+		<div class="text-production col-xs-12 col-sm-6 col-md-6">
 			<?php echo $page->production()->kirbytext()?>
 		</div>
-		<div class="text-formation col-xs-12 col-sm-6 col-md-5">
+		<div class="text-formation col-xs-12 col-sm-6 col-md-6">
 			<?php echo $page->formation()->kirbytext()?>
 		</div>
 	</div>

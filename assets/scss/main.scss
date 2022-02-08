@@ -20,11 +20,6 @@ body{
 	overflow-x: hidden;
 }
 
-img{
-	width:100%;
-	vertical-align: top;
-}
-
 h1, h2, h3, h4, h5, h6{font-family: 'maison', sans-serif;}
 h1{font-size:$h1small; text-transform:uppercase; line-height:1;}
 h2{font-size:$h2; text-transform:uppercase;}
@@ -47,7 +42,7 @@ ul{
 li{list-style:none;font-size:$text;}
 p{font-size:$text;}
 figure{margin-top:30px; margin-left:0px;}
-img{width:100%; max-width:100%;}
+img{width:100%; max-width:100%; vertical-align: top;}
 p + blockquote{
 	margin-bottom:0;
 }
@@ -78,10 +73,40 @@ input[type='button'], #mc_embed_signup .button{
 	background-color: $corail !important;
 }
 
+.no-underline{
+	text-decoration:none !important;
+}
+
 main{
 	max-width: 100em;
 	width:100%;
 }
+
+.list{
+	a{
+		text-decoration: none;
+	}
+	.listEl{
+		border: $border solid $corail;
+		list-style: none;
+		margin: 0;
+		margin-right: $gouttiere;
+		margin-bottom: $gouttiere;
+		&.col-xs-12{max-width: calc(100% - (#{$gouttiere}*3))};
+		&.col-xs-6{max-width: calc(50% - (#{$gouttiere}*2))};
+		&.col-xs-4{max-width: calc(33.33% - (#{$gouttiere}*2))};
+		&.col-xs-3{max-width: calc(25% - (#{$gouttiere}*2))};
+		h3{
+			color: #EA6358;
+			font-size: 1.1em;
+			font-weight: bold;
+		}
+		p{
+			color: #EA6358;
+		}
+	}
+}
+
 
 // HEADER
 header{
@@ -203,6 +228,7 @@ footer{
 	display:none;
 }
 
+
 .texte-courant-page, .actu-grid .actu-text{
 	h3{
 		margin-top:$padding;
@@ -223,6 +249,7 @@ footer{
 	.infos-page{
 		margin-top: $padding;
 		color: $corail;
+		padding-right: 0;
 		p, a{font-size:$textress;}
 		h4{font-size:$textress;}
 		h4 +p{margin-top: 0;}
@@ -341,6 +368,7 @@ body[data-template="newsletter"]{
 			color: $corail;
 			font-weight: bold;
 			text-transform:uppercase;
+			max-width: 100%;
 		}
 		h1.h1-clone{
 			display: none;
@@ -365,7 +393,7 @@ body[data-template="projets"]{
 						margin:0;
 					}
 					p{
-						font-size: $menu;
+						font-size: $text;
 					}
 					a{
 						color:$corail;
@@ -406,6 +434,9 @@ body[data-template="projet"]{
 			margin: 0px;
 			padding:0px;
 		}
+	}
+	.content .infos-page p{
+		font-size: $text;
 	}
 }
 

@@ -1,0 +1,27 @@
+title: Equipe
+
+columns:
+  sidebar:
+    width: 1/3
+    sections:
+      files:
+        type: files
+        label: Fichiers / Images
+  main:
+    width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          chapeau:
+            label: Chapeau
+            type:  markdown
+          virginie:
+            label: Bio Virginie
+            type:  markdown
+          celine:
+            label: Bio Céline
+            type:  markdown
+          marie:
+            label: Bio Marie
+            type:  markdown

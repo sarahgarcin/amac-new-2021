@@ -1,0 +1,21 @@
+title: References
+
+columns:
+  sidebar:
+    width: 1/3
+    sections:
+      files:
+        type: files
+        label: Fichiers / Images
+  main:
+    width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          artistes:
+            label: Artistes
+            type:  markdown
+          institutions:
+            label: Institutions
+            type:  markdown

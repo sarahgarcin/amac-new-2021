@@ -1,0 +1,12 @@
+Title: Erreur
+
+----
+
+Text:
+
+Cette page n'existe pas.
+Mais vous pouvez jouer.
+
+----
+
+Uuid: lKFoH6WreRVz1hn8

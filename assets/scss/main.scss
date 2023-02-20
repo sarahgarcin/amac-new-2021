@@ -43,6 +43,7 @@ li{list-style:none;font-size:$text;}
 p{font-size:$text;}
 figure{margin-top:30px; margin-left:0px;}
 img{width:100%; max-width:100%; vertical-align: top;}
+video{width:100%; max-width:100%; vertical-align: top; border: 1px solid $corail}
 p + blockquote{
 	margin-bottom:0;
 }
@@ -92,10 +93,10 @@ main{
 		margin: 0;
 		margin-right: $gouttiere;
 		margin-bottom: $gouttiere;
-		&.col-xs-12{max-width: calc(100% - (#{$gouttiere}*3))};
-		&.col-xs-6{max-width: calc(50% - (#{$gouttiere}*2))};
-		&.col-xs-4{max-width: calc(33.33% - (#{$gouttiere}*2))};
-		&.col-xs-3{max-width: calc(25% - (#{$gouttiere}*2))};
+		&.col-xs-12, &.col-xs-6, &.col-xs-4, &.col-xs-3{
+			max-width: calc(100% - (#{$gouttiere}*3);
+			flex-basis: calc(100% - (#{$gouttiere}*3);
+		};
 		h3{
 			color: #EA6358;
 			font-size: 1.1em;
@@ -226,6 +227,10 @@ footer{
 .content{
 	min-height: 68vh;
 	display:none;
+}
+
+.images-illu-wrapper{
+	display: none;
 }
 
 

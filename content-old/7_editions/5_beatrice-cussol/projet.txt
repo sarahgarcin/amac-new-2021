@@ -1,0 +1,60 @@
+Title: Eponyme de Béatrice Cussol
+
+----
+
+Date: 2021-01-06
+
+----
+
+Text:
+
+**Les vies de Béatrice Cussol sont traversées par des pratiques parallèles : écriture, dessin, collage et volume cousu. **Des idées enfouies, comme des annotations dans des cahiers bien rangés et relégués au grenier, resurgissent régulièrement jusqu’à trouver leur nécessité. Cette édition monographique propose une traversée du travail de l’artiste, une aventure visuelle, un jeu choisi d’échos d’images et de détails, un regard rétrospectif de l’artiste sur sa pratique. À la fois direct et intime, le livre offre au lecteur une immersion dans un univers artistique, un parcours solitaire ou une expérience féminine, se jouant des stéréotypes et développant un espace de représentation à la fois doux, insolent et violent. L’ouvrage donne ainsi accès aux langues singulières de l’artiste, “archi-pelles, non représentatives, figurales”, autant d’assemblages et facettes d’un regard, éclairé par les textes d’Élisabeth Lebovici, de Nathalie Quintane et d’un entretien entre Julie Crenn et Béatrice Cussol.
+
+La création graphique est conçue par (link: http://www.marctouitou.com/ text: Marc Touitou popup:yes).
+
+Cette publication est réalisée en coédition avec (link: https://www.le-carre.org/centre-dart-contemporain/ text: Le Carré - centre d'art contemporain d'intérêt national), dans le cadre de l'exposition de Béatrice Cussol, *Attends* du 15 septembre au 11 novembre 2018 .
+
+Cette édition est réalisée avec le soutien à l’édition du (link: http://www.cnap.fr/ text: Centre national des arts plastiques), de l'(link: https://www.adagp.fr/ text: ADAGP), des (link: https://www.lesabattoirs.org/ text: Abattoirs), Toulouse.
+
+**PARUTION AUTOMNE 2019 **
+800 exemplaires 
+édition bilingue (français-anglais)
+208 pages – Format 16,5 x 23 cm
+ISBN 978-2-9535809-4-5
+Diffusion par (link: http://www.lespressesdureel.com/ text: Les presses du réel popup:yes)
+
+**Prix public** : 25 €
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="7LUKJK8Q6Q6F4">
+<input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+</form><br>
+
+----
+
+Thumb: capture-decran-2019-07-11-a-11.41.23.png
+
+----
+
+Ressources:
+
+- 
+  file: >
+    amac-eponyme-b-cussol-presentation-light.pdf
+  legende: "Présentation de l'édition"
+  type: doc
+  link: ""
+- 
+  file: offrenoel2020-bdc-b-cussol.pdf
+  legende: Bon de commande
+  type: doc
+  link: ""
+
+----
+
+Accueil: non
+
+----
+
+Uuid: z2XnYOADqyErObAn

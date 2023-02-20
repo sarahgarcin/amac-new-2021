@@ -11,7 +11,7 @@
 						<figure class="col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
                 <a href="<?= $image->url(); ?>" itemprop="contentUrl" data-size="<?= $image->width(); ?>x<?= $image->height(); ?>"
                    title="<?= $image->text()->value(); ?>">
-                    <img src="<?php echo thumb($image, array('width' => 300))->url() ?>" itemprop="thumbnail" alt="<?= $page->title()->value() ?> <?= $image->text()->value(); ?>" class="img-responsive"/>
+                    <img src="<?php echo $image->thumb(['width' => 300, 'quality' => 80,])->url() ?>" itemprop="thumbnail" alt="<?= $page->title()->value() ?> <?= $image->text()->value(); ?>" class="img-responsive"/>
                 </a>
                 <figcaption itemprop="caption description"><?= $image->text()->kirbytext() ?></figcaption>
             </figure>

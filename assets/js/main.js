@@ -74,7 +74,37 @@ function init(){
 			$(this).parents('.actus').addClass('active');
 		});
 
-	}		
+	}
+
+	// JS FOR PAGE
+	// Images random position
+	// var positions = ['posOne', 'posTwo', 'posThree', 'posFour', 'posFive'];
+	// $('.image-illu-page').each(function(){
+	// 	var randomImagePos = getRandomInt(0, positions.length-1);
+	// 	console.log(randomImagePos); 
+	// 	var pos = positions[randomImagePos];
+	// 	 $(this).addClass(pos);
+	// 	 removeItemOnce(positions, pos);
+	// 	// switch (randomImagePos) {
+	// 	//   case 1:
+	// 	//     $(this).addClass('posOne');
+	// 	//     break;
+	// 	//   case 2:
+	// 	// 		$(this).addClass('posTwo');
+	// 	//     break;
+	// 	//   case 3:
+	// 	// 		$(this).addClass('posThree');
+	// 	//     break;
+	// 	//   case 4:
+	// 	// 		$(this).addClass('posFour');
+	// 	//     break;
+	// 	//   default:
+	// 	//   	$(this).addClass('posFive');
+
+	// 	}
+	// });
+	
+
 }
 
 // ---- PAGE ----
@@ -128,6 +158,14 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+// remove element from array
+function removeItemOnce(arr, value) {
+  var index = arr.indexOf(value);
+  if (index > -1) {
+    arr.splice(index, 1);
+  }
+  return arr;
+}
 
 
 

@@ -1,0 +1,45 @@
+Title: ANÉAT
+
+----
+
+Date: 2019-07-02
+
+----
+
+Text:
+
+Créée en 2015, l’ANÉAT — Association Nationale des Écoles d’Art Territoriales de pratiques amateurs — donne, au plan national un cadre aux échanges entre les écoles. Elle est l’interlocutrice des associations professionnelles, des collectivités et de l’État. Elle regroupe collectivités territoriales et établissements publics qui délèguent leur représentation aux responsables de leurs écoles. L’ANÉAT s’organise à partir de groupes de travail, de chantiers.
+
+Afin de mieux connaître l’enseignement public des pratiques artistiques amateurs en arts plastiques sur l’ensemble du territoire français, l’ANÉAT, soutenue par le ministère de la Culture, a souhaité engager un observatoire visant à mieux connaître cette offre, afin de faciliter à terme les échanges entre ses acteurs. De 2018 à 2019, l'agence amac a accompagné l'association dans cette démarche. Un recensement de l’offre existante des écoles d’arts plastiques territoriales en France a tout d'abord été réalisé afin d’en dresser un panorama puis une enquête a été mise en place. L'agence amac a également accompagné l'association sur la redéfinition de son identité visuelle et sa mise en place.
+
+En 2020, face à la crise sanitaire, l'ANÉAT, accompagnée par l'agence amac a mené une enquête sur les conditions de travail et la continuité de service public au sein des établissements d'enseignement de pratqiues amateurs arts visuels durant la pandémie de Covid-19.
+
+Pour en savoir plus :
+(link: http://www.aneat.fr/ text: www.aneat.fr)
+
+----
+
+Thumb: logo-aneat-long.jpg
+
+----
+
+Ressources:
+
+- 
+  file: aneat-observatoire-synthese.pdf
+  legende: "Synthèse *Observatoire de l'enseignement public des pratiques amateurs en arts plastiques* 2018-2019"
+  type: doc
+  link: ""
+- 
+  file: aneat-covid-19-synthese-complete.pdf
+  legende: Synthèse enquête Covid-19
+  type: doc
+  link: ""
+
+----
+
+Accueil: non
+
+----
+
+Uuid: 6jmjCTMXUO3wBngu

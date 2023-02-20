@@ -1,0 +1,92 @@
+title: Site
+
+tabs:
+  pages:
+    label: Pages
+    icon: page
+    columns:
+      - width: 1/2
+        sections:
+          pages:
+            type: pages
+            headline: Pages
+  settings:
+    label: Paramètres
+    icon: settings
+    columns:
+      - width: 1/3
+        sections:
+          images:
+            type: files
+            template: image
+            info: "{{ file.dimensions }}"
+            size: small
+      - width: 1/2
+        fields:
+          author:
+            label: Auteurs
+            type:  text
+          menuproduction: 
+            label: Sélectionnez les éléments pour le premier menu
+            type: checkboxes
+            options: query
+            query: site.children
+          menuactu: 
+            label: Sélectionnez les éléments pour le deuxième menu
+            type: checkboxes
+            options: query
+            query: site.children
+          menuequipe: 
+            label: Sélectionnez les éléments pour le troisième menu
+            type: checkboxes
+            options: query 
+            query: site.children
+          menunewsletter: 
+            label: Sélectionnez les éléments pour le quatrième menu
+            type: checkboxes
+            options: query 
+            query: site.children
+          description:
+            label: Description
+            type:  markdown
+          complete:
+            label: Description Complète
+            type:  markdown
+          keywords:
+            label: Keywords
+            type:  tags
+          amac:
+            label: amac Infos
+            type: headline
+          amaclogo:
+            label: Logo amac
+            type: files
+            multiple: false
+            help: Logo de amac qui s'affiche dans l'en-tête du site
+          copyright:
+            label: Copyright
+            type:  text
+          socialNetworkSettings:
+            label: Paramètres pour les réseaux sociaux
+            type:  headline
+          ogimage:
+            label: Vignette pour les réseaux sociaux 
+            type:  url
+            help:  URL de l'image vignette qui représentera votre site sur les réseaux sociaux..
+          socialnetworks:
+            label: Réseaux sociaux
+            type:  structure
+            entry: >
+              <i class="fi-{{icon}}"></i>
+              {{link}}
+            fields:
+              icon:
+                label: Icône
+                type:  text
+                width: 1/2
+                icon:  share-alt
+              link:
+                label: Lien
+                type:  text
+                width: 1/2
+                icon:  link

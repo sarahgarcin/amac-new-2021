@@ -1,0 +1,29 @@
+Title: Accueil
+
+----
+
+Production:
+
+(link:/conseil text: conseil)
+(link:/production text: production artistique  
+ — et coordination de projet)
+
+----
+
+Formation:
+
+(link: /accompagnement text: accompagnement d’artistes)
+(link: /formation text: formation à l’environnement  
+ — professionnel des arts visuels)
+
+----
+
+Description:
+
+Les missions conduites par l’agence depuis 2004 ont permis des collaborations avec l’ensemble des acteurs du milieu culturel et du secteur des arts visuels : structures de diffusion, associations, artistes, collectivités, institutions, etc.
+
+Pour chaque projet, amac s’entoure de partenaires et professionnels qualifiés afin de constituer selon les besoins une équipe dédiée et compétente.
+
+----
+
+Uuid: R7clHd0fNj6FJYMC

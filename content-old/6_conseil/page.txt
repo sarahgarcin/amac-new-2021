@@ -1,0 +1,100 @@
+Title: Conseil
+
+----
+
+Text:
+
+De plus en plus de collectivités souhaitent construire une identité culturelle forte en proposant notamment une politique volontariste en faveur des arts visuels. Cependant au regard de la particularité et diversité des contextes et du manque d’informations concernant ce secteur, il est primordial d’appréhender au préalable la réalité d’un territoire et identifier ses enjeux et problématiques.
+
+amac accompagne les collectivités dans leurs démarches et réflexions quant à la **définition de leur politique culturelle**, la mise en place d’actions et dispositifs de soutiens, et la conception d’événements artistiques.
+Dans ce cadre, l’agence a participé notamment à la **Conférence Régionale Consultative de la Culture** initiée par la Région des Pays de la Loire, et a conduit dans ce contexte une étude sur les lieux de travail pour les artistes des arts visuels en Pays de la Loire et les observations sur le secteur des arts visuels et du cinéma et de l’audiovisuel en Pays de la Loire, téléchargeables ci-contre.
+
+Depuis 2017, et en faveur des politiques culturelles régionales lancées par les **Schéma d’Orientation pour le Développement des Arts Visuels** amac a accompagné le réseau régional TRAM (Réseau art contemporain Paris/Île-de-France) dans la conduite du SODAVI portant sur les parcours de l'artiste ; et a.c.b - art contemporain en Bretagne dans la réalisation d'une étude sur l'activité des artistes plasticien.ne.s en Bretagne. 
+
+Pour en savoir plus : 
+(link: http://tram-idf.fr/sodavi-idf/ text: www.tram-idf.fr popup: yes)
+(link: https://www.artcontemporainbretagne.org/ text: www.artcontemporainbretagne.org popup:yes)
+
+----
+
+Chapeau: 
+
+----
+
+Infos:
+
+#### Contact :
+amac 
+(email: contact@amac-web.com text: contact@amac-web.com)
+
+**Réalisations :**
+*(link: en-cours/mayenne-culture text: Mayenne Culture)*
+Étude pour établir un état des lieux prospectif sur la situation des arts visuels en Mayenne, 2020-2021
+
+*(link: en-cours/aneat text: ANÉAT)*
+Enquête sur les conditions de travail au sein des établissements d’enseignement de pratiques amateurs en arts visuels durant la pandémie de CoVid-19, 2020
+
+*(link: en-cours/sodavi-bretagne text: a.c.b - art contemporain en Bretagne)*
+Étude sur les artistes en Bretagne, 2019
+
+*(link: en-cours/sodavi-idf text: SODAVI Île-de-France)*
+Diagnostic et accompagnement du réseau Tram, 2017-19
+
+*(link: /en-cours/aneat text: ANÉAT)*
+Étude sur l'Observatoire des écoles d'art territoriales des pratiques amateurs, 2018-2019
+
+*(link: en-cours/appea text: APPÉA)*
+Conseil et coordination du réseau, 2017-20
+
+*(link: http://www.orleans-metropole.fr/1597/renaissance-des-vinaigreries.htm text: Les Vinaigreries popup:yes), Orléans*
+Étude sur la réhabilitation d’une friche industrielle, 2017
+
+----
+
+Ressources:
+
+- 
+  file: etude-lieux-de-travail-pdl-2011-p1.pdf
+  legende: 'Étude sur les lieux de travail, individuels et collectifs, des artistes plasticiens en Région des Pays de la Loire, 2011 - Phase 1'
+  type: doc
+  link: ""
+- 
+  file: etude-lieux-de-travail-pdl-2011-p2.pdf
+  legende: 'Étude sur les lieux de travail, individuels et collectifs, des artistes plasticiens en Région des Pays de la Loire, 2011 - Phase 2'
+  type: doc
+  link: ""
+- 
+  file: opp_arts_visuels_2013.pdf
+  legende: >
+    Observation participative et partagée
+    des arts visuels en Pays de la Loire,
+    2013
+  type: doc
+  link: ""
+- 
+  file: opp_cinema_2013.pdf
+  legende: >
+    Observation participative et partagée
+    du cinéma et de l’audiovisuel en Pays
+    de la Loire, 2013
+  type: doc
+  link: ""
+- 
+  file: ""
+  legende: >
+    Études DEPS (Département des études
+    de la prospective et des statistiques)
+    du Ministère de la Culture 
+  type: link
+  link: >
+    http://www.culturecommunication.gouv.fr/Politiques-ministerielles/Etudes-et-statistiques/Publications/Collections-de-synthese/Culture-etudes-2007-2015
+- 
+  file: >
+    etude-plasticien-bretagne-2019-planche.pdf
+  legende: "Étude sur l'activité des artistes plasticien.ne.s en Bretagne"
+  type: doc
+  link: ""
+
+----
+
+Uuid: CcteE6sgFw0ZyO98

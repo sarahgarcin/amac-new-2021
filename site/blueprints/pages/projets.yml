@@ -1,0 +1,18 @@
+title: Projets
+
+sections:
+  drafts:
+    label: Brouillons
+    type: pages
+    status: drafts
+    templates: projet
+  unlisted:
+    label: Pages non publiées
+    type: pages
+    status: unlisted
+    templates: projet
+  published:
+    label: Pages Publiées
+    type: pages
+    status: listed
+    templates: projet

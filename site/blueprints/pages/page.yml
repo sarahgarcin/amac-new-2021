@@ -1,0 +1,59 @@
+title: Page
+
+columns:
+  sidebar:
+    width: 1/3
+    sections:
+      files:
+        type: files
+        label: Fichiers / Images
+      pages:
+        type: pages
+        label: Pages
+  main:
+    width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          chapeau:
+            label: Chapeau
+            type:  markdown
+          pictures: 
+            label: Images 
+            type: structure
+            fields: 
+              thumb: 
+                label: Image
+                type: files
+                multiple: false
+              text: 
+                label: Légende
+                type : markdown
+              link: 
+                label: Lien 
+                type: url
+          text:
+            label: Texte
+            type:  markdown
+          infos:
+            label: Infos
+            type: markdown
+          ressources:
+            label: Ressources
+            type: structure
+            entry: >
+              {{file}} {{link}} <br> {{legende}}
+            fields:
+              file:
+                label: Choisir le pdf 
+                type: files
+                options: documents
+                help : choisir un pdf ici, si la ressource désirée est un document pdf
+              link:
+                label: Lien 
+                type: url
+                help : ajouter une url ici, si la ressource désirée est un site web
+              legende:
+                label: Légende
+                type: markdown

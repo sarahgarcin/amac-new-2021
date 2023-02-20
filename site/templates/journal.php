@@ -19,7 +19,7 @@
 							<!-- Cette fonction est dans plugins > truncate > truncate.php -->
 							<!--  truncate($string, nombre de caractères, caractère(s) de fin, exactitude, prendre en compte le html) -->
 							<!-- <?php //echo truncate($actu->text()->kirbytext(), 200, '…', false, true); ?> -->
-							<p><?php echo excerpt($actu->text(), 200); ?></p>
+							<p><?php echo $actu->text()->excerpt(200); ?></p>
 						</div>
 						<div class="actu-text">
 							<?php echo $actu->text()->kirbytext()?>

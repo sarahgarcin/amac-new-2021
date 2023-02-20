@@ -1,0 +1,112 @@
+Title: Formation
+
+----
+
+Text:
+
+### NOS FORMATIONS EN 2021
+
+(list: )
+(li: COMMUNIQUER text: Présenter sa démarche artistique, optimiser sa communication, documenter et archiver son travail artistique link: http://coucou.com col: 2)
+(li: EXERCER text: Faire des trucs chouettes  link: http://coucou.com col: 2)
+(li: TEST text: Pouet col: 1)
+(endlist: ) 
+
+#### **COMMUNIQUER**
+* ** (file: amac-programme-formation-presenter-demarche-2021.pdf text: Présenter sa démarche artistique popup: yes)**
+Nantes - 18 et 19 novembre 2021 
+Paris - 11 et 12 octobre 2021
+* ** (file: amac-programme-formation-optimiser-communication-2021.pdf text:Optimiser sa communication  popup: yes)**
+Paris - 15, 16 et 17 novembre 2021 
+* ** (file: amac-programme-formation-documenter-2021.pdf text: Documenter et archiver son travail artistique popup: yes)** 
+Paris - 6 décembre 2021 
+* ** (file: amac-programme-formation-photographier-2021.pdf text: Photographier ses œuvres popup: yes)** 
+Paris - 14, 15, 16 et 17 juin 2021
+Nantes - 18, 19, 20 et 21 octobre 2021
+
+#### **EXERCER**
+* ** (file: amac-programme-formation-positionner-projet-2021.pdf text: Positionner son projet professionnelpopup: yes)** 
+Nantes - 23, 24 septembre, 21 et 22 octobre 2021 
+* ** (file: amac-programme-formation-statut-2021.pdf text: Artiste auteur : faire le point sur son statut professionnel popup: yes)** 
+Paris - 14 septembre 2021 
+* ** (file: amac-programme-formation-appel-a-projets-2021.pdf text: Répondre à un appel à projet dans les arts visuels popup: yes)** 
+Paris - 24 et 25 juin 2021 / 4 et 5 novembre 2021
+* ** (file: amac-programme-formation-developper-projets-entreprises-2021.pdf text: Développer ses projets artistiques pour les entreprises popup: yes)** 
+Nantes - 3 et 8 juin 2021 (visio-conférence)
+* ** (file: amac-programme-formation-education-artistique-2021.pdf text: Concevoir un projet d'éducation artistique popup: yes)** 
+Nantes - 7, 8 et 9 juillet  2021 
+* ** (file: amac-formation-programmation-3d.pdf text: Concevoir ses projets en 3D avec Sketchup popup: yes)** 
+Nantes - 14, 15 et 16 juin 2021 / 13, 14 et 15 octobre 2021
+
+#### **PRODUIRE**
+* ** (file: amac-programme-formation-ceramique-initiation-2021.pdf text: Initiation à la céramique popup: yes)** 
+Nantes - 15, 16, 17 juin 2021 / 6, 7, 8 septembre 2021
+* ** (file: amac-programme-formation-ceramique-modelage-2021.pdf text: Modelage et assemblage en céramique popup: yes)**
+Nantes - 13, 14, 15 septembre 2021
+* ** (file: amac-programme-formation-ceramique-decors-2021.pdf text: Les techniques de décors en céramique popup: yes)**
+Nantes - 20, 21, 22 septembre 2021
+* ** (file: amac-programme-formation-ceramique-moulage-2021.pdf text: Céramique : réaliser ses moules en plâtre popup: yes)**
+Nantes - 21, 22, 23, 24 juin / 18, 19, 20, 21 octobre 2021
+* ** (file: amac-programme-formation-ceramique-tour-2021.pdf text: Tournage et tournassage en céramique popup: yes)**
+Nantes - 2, 3, 4 juin 2021 / 28, 29, 30 septembre 2021
+* ** (file: amac-programme-formation-oeuvre-metal-2021.pdf text: Réaliser une œuvre en métal  popup: yes)**
+Proximité de Nantes -  du 29 mars au 2 avril 2021 / du 7 au 11 juin 2021 /  du 6 au 10 septembre 2021
+* ** (file: amac-programme-formation-serigraphie-2021.pdf text: Initiation à la sérigraphie artisanale sur papier ou textile popup: yes)**
+Nantes - 7, 8 et 9 juillet 2021 
+* ** (file: amac-programme-formation-matiere-sonore-2021.pdf text: Comment travailler la matière sonore pour une œuvre plastique [nouveau]  popup: yes)**
+Nantes -  18 au 22 octobre 2021
+* ** (file: amac-programme-formation-encadrer-2021.pdf text: Encadrer ses œuvres popup: yes)**
+Nantes - janvier à décembre 2021
+* ** (file: amac-programme-formation-socle-vitrine-2021.pdf text: Réaliser des socles et vitrines de présentation popup: yes)**
+Nantes - janvier à décembre 2021
+* ** (file: amac-programme-formation-caisses-transport-2021.pdf text: Réaliser ses caisses de transport sans se ruiner popup: yes)**
+Nantes - janvier à décembre 2021
+* ** (file: amac-programme-formation-caissons-lumineux-2021.pdf text: Réaliser des caissons lumineux pour présenter ses œuvre popup: yes)**
+Nantes - janvier à décembre 2021
+* ** (file: amac-programme-formation-oeuvre-bois-2021.pdf text: Façonner une œuvre en bois popup: yes)**
+Nantes - janvier à décembre 2021
+
+----
+
+Chapeau: Les formations proposées par amac s’adressent aux **artistes auteur·e·s des arts visuels** qui cherchent à renforcer leurs compétences dans l’exercice de leur activité et améliorer leurs connaissances quant aux spécificités du secteur. Différents modules sont ainsi animés par des formateurs et intervenants experts dans leur domaines d’intervention.
+
+----
+
+Infos:
+
+#### Modalités d’inscription :   
+La demande s’effectue à partir d’un (link: https://docs.google.com/forms/d/11r2DAKPXO6UAcIE65WaBPVMLmS9bOibMi7CkCrM0cgk/viewform popup: yes text: formulaire de pré-inscription en ligne). 
+
+#### Financement des formations :   
+Une prise en charge des frais de formation est possible selon son statut professionnel, par différents organismes de prise en charge.
+Pour connaître les conditions de prise en charge pour les artistes auteurs, se renseigner auprès de la délégation régionale Afdas correspondant à son lieu de résidence.
+Coordonnées sur (link: https://www.afdas.com/particuliers/services/financement/artistes-auteurs/ text: www.afdas.com  popup: yes)
+
+#### Renseignements :
+amac > Nantes  
+(email: formation@amac-web.com text: formation@amac-web.com)  
+t. 02 40 48 55 38
+
+----
+
+Ressources:
+
+- 
+  file: ""
+  legende: 'Modalités de financement Afdas - artiste auteur'
+  type: link
+  link: >
+    https://www.afdas.com/particuliers/services/financement
+- 
+  file: programme-2021.pdf
+  legende: Programme 2021
+  type: doc
+  link: ""
+
+----
+
+Pictures: 
+
+----
+
+Uuid: x5qo8HLX6JqSKBZl

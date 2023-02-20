@@ -1,0 +1,39 @@
+Title: Enquête sur l'activité des artistes plasticiens en Bretagne
+
+----
+
+Date: 2019-01-22
+
+----
+
+Text:
+
+**L’association (link: http://www.artcontemporainbretagne.org text: a.c.b - art contemporain en Bretagne popup:yes), qui fédère 50 structures d’art contemporain en région Bretagne, a engagé en 2019 un travail d’étude sur les artistes  plasticiens en Bretagne et sur les conditions d’exercice de leur activité professionnelle. **
+
+Cette enquête réalisée par amac visait, au-delà de l’état des lieux, à identifier les freins et opportunités pour l'activité des artistes en Bretagne et à nourrir collectivement et conjointement des pistes de réflexion pour l’amélioration de leurs conditions d’exercice en région.  Dans ce sens, des  temps de restitutions et de concertation ont été proposés par a.c.b et co-animés avec amac dans chaque département de la Bretagne entre juin et juillet 2019. La démarche engagée par a.c.b se poursuit en 2020 par l'analyse et la formulation de préconisations en faveur des arts visuels en Bretagne.
+
+Le rapport de cette enquête a été publiée en janvier 2020 a.c.b. 
+
+Pour en savoir plus, rendez-vous sur le site (link: https://www.artcontemporainbretagne.org/concertation/ text: www.artcontemporainbretagne.org popup:yes).
+
+----
+
+Thumb: acb.jpg
+
+----
+
+Ressources:
+
+- 
+  file: etude-plasticien-bretagne-2019-web.pdf
+  legende: 'Rapport étude - activité des artistes plasticiens·ne·s en Bretagne'
+  type: doc
+  link: ""
+
+----
+
+Accueil: non
+
+----
+
+Uuid: tXq6GxIIghfgbOXs

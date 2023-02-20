@@ -1,0 +1,21 @@
+title: Journal
+
+sections:
+  drafts:
+    label: Brouillons
+    type: pages
+    status: drafts
+    templates: actu
+    sortBy: date desc
+  unlisted:
+    label: Pages non publiées
+    type: pages
+    status: unlisted
+    templates: actu
+    sortBy: date desc
+  published:
+    label: Pages Publiées
+    type: pages
+    status: listed
+    templates: actu
+    sortBy: date desc

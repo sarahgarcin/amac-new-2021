@@ -1,0 +1,36 @@
+Title: Le catalogue 2020
+
+----
+
+Date: 2020-11-24
+
+----
+
+Text:
+
+Motivée par la nécessité de soutenir les artistes dans la diffusion et la promotion de leur travail, l'agence amac lance les éditions amac en 2012 avec la publication d'une monographie de Carole Rivalin, (link: http://amac-web.com/editions/projet text: *Over the rainbow* popup:yes).
+Aujourd'hui, le catalogue présente un ensemble de 6 ouvrages dont le dernier *PLAIRE*, est une monographie de l’artiste Stéphane Vigny sortie en novembre 2020.
+
+Retrouvez l'ensemble du catalogue ci-dessous.
+
+----
+
+Thumb: couv-catalogue-editionsamac-web.jpg
+
+----
+
+Ressources:
+
+- 
+  file: catalogue-editionsamac-2020.pdf
+  legende: Catalogue 2020
+  type: doc
+  link: ""
+
+----
+
+Accueil: non
+
+----
+
+Uuid: RHfm4Q5qLjuYIfuY

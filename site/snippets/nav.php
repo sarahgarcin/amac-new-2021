@@ -9,7 +9,7 @@
 				<?php foreach ($site->menuproduction()->split() as $p): ?>
 					<?php $p = $site->find($p);?>
 				  <li>
-				  	<a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+				  	<a class="<?= r($p->isOpen(), 'active') ?>" href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
 				  </li>
 				<?php endforeach ?>
 		</ul>
@@ -19,7 +19,7 @@
 				<?php foreach ($site->menuactu()->split() as $p): ?>
 					<?php $p = $site->find($p);?>
 				  <li>
-				  	<a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+				  	<a class="<?= r($p->isOpen(), 'active') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
 				  </li>
 				<?php endforeach ?>
 			</ul>
@@ -27,7 +27,7 @@
 				<?php foreach ($site->menuequipe()->split() as $p): ?>
 					<?php $p = $site->find($p);?>
 				  <li>
-				  	<a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+				  	<a class="<?= r($p->isOpen(), 'active') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
 				  </li>
 				<?php endforeach ?>
 			</ul>
@@ -35,7 +35,7 @@
 				<?php foreach ($site->menunewsletter()->split() as $p): ?>
 					<?php $p = $site->find($p);?>
 				  <li>
-				  	<a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+				  	<a class="<?= r($p->isOpen(), 'active') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
 				  </li>
 				<?php endforeach ?>
 			</ul>

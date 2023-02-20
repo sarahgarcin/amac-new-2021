@@ -2093,6 +2093,12 @@ img {
   max-width: 100%;
   vertical-align: top; }
 
+video {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: top;
+  border: 1px solid #EA6358; }
+
 p + blockquote {
   margin-bottom: 0; }
 
@@ -2134,14 +2140,10 @@ main {
   margin: 0;
   margin-right: 15px;
   margin-bottom: 15px; }
-  .list .listEl.col-xs-12 {
-    max-width: calc(100% - (15px*3)); }
-  .list .listEl.col-xs-6 {
-    max-width: calc(50% - (15px*2)); }
-  .list .listEl.col-xs-4 {
-    max-width: calc(33.33% - (15px*2)); }
-  .list .listEl.col-xs-3 {
-    max-width: calc(25% - (15px*2)); }
+  .list .listEl.col-xs-12, .list .listEl.col-xs-6, .list .listEl.col-xs-4, .list .listEl.col-xs-3 {
+    max-width: calc(100% - (15px*3));
+    -ms-flex-preferred-size: calc(100% - (15px*3));
+    flex-basis: calc(100% - (15px*3)); }
   .list .listEl h3 {
     color: #EA6358;
     font-size: 1.1em;
@@ -2260,6 +2262,9 @@ footer {
 
 .content {
   min-height: 68vh;
+  display: none; }
+
+.images-illu-wrapper {
   display: none; }
 
 .texte-courant-page h3, .actu-grid .actu-text h3 {
@@ -2617,6 +2622,53 @@ body[data-template="error"] {
     display: flex; }
   footer {
     left: 62.5vw; }
+  .list .listEl.col-xs-12 {
+    max-width: calc(100% - (15px*3)); }
+  .list .listEl.col-xs-6 {
+    max-width: calc(50% - (15px*2)); }
+  .list .listEl.col-xs-4 {
+    max-width: calc(33.33% - (15px*2)); }
+  .list .listEl.col-xs-3 {
+    max-width: calc(25% - (15px*2)); }
+  .images-illu-wrapper {
+    display: block; }
+  .image-illu-page {
+    width: 15%;
+    min-width: 100px;
+    position: absolute;
+    z-index: 1000;
+    border: 2px solid #EA6358; }
+    .image-illu-page:nth-child(1) {
+      top: -100px;
+      left: 2%; }
+    .image-illu-page:nth-child(2) {
+      top: -160px;
+      right: 4%; }
+    .image-illu-page:nth-child(3) {
+      top: -220px;
+      left: 36%; }
+    .image-illu-page:nth-child(4) {
+      top: 20vh;
+      left: 2%; }
+    .image-illu-page:nth-child(5) {
+      top: 15vh;
+      right: 4%; }
+    .image-illu-page:nth-child(6) {
+      top: 30vh;
+      left: 2%; }
+    .image-illu-page a {
+      text-decoration: none; }
+    .image-illu-page figure {
+      margin: 0; }
+    .image-illu-page img {
+      border-bottom: 2px solid #EA6358; }
+    .image-illu-page figcaption {
+      padding: 10px;
+      color: #EA6358;
+      background: #FFF; }
+      .image-illu-page figcaption p {
+        margin: 0;
+        font-size: 13px; }
   body[data-template="home"] {
     overflow: hidden; }
     body[data-template="home"] .description-amac {

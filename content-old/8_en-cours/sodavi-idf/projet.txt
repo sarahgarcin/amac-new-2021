@@ -1,0 +1,67 @@
+Title: SODAVI IDF
+
+----
+
+Date: 2018-10-23
+
+----
+
+Text:
+
+**De 2017 à 2019, amac a accompagné TRAM (Réseau art contemporain Paris/Île-de-France) dans la conduite du Schéma d’Orientation pour le Développement des Arts Visuels  en Île-de-France.**
+
+Initiée par la Direction régionale des affaires culturelles d'Île-de-France, cette démarche doit permettre de consolider la mise en réseau et la coopération des acteurs des arts visuels sur le territoire régional, d’établir des préconisations pour le développement et la structuration du secteur et accompagner l’élaboration de politiques publiques.
+
+Le SODAVI IDF se caractérise par la mise en avant du parcours professionnel des artistes et sur la manière dont les acteurs des arts visuels interviennent dans la construction de ces parcours et accompagnent les artistes dans l’exercice de leur activité.
+
+Après une phase initiale de diagnostic entre 2017 et 2018 s'est ouvert une phase de concertation entre avril et mai 2019 dont une restitution finale le 22 novembre 2019 au Palais de Tokyo a clôturé cette concertation. 
+
+Pour en savoir plus : 
+(link: http://tram-idf.fr/sodavi-idf/ text: www.tram-idf.fr popup: yes)
+
+----
+
+Thumb: logo-sodavi-idf.jpg
+
+----
+
+Ressources:
+
+- 
+  file: tram_livret_sodavi_web.pdf
+  legende: 'Livret - Phase 01 – Diagnostic'
+  type: doc
+  link: ""
+- 
+  file: sodavi_ct1_compte-rendu.pdf
+  legende: "Chantier 1 > L'ancrage territorial de l'artiste"
+  type: doc
+  link: ""
+- 
+  file: sodavi_ct2_compte-rendu.pdf
+  legende: "Chantier 2 > L'artiste dans l'écosystème des arts visuels"
+  type: doc
+  link: ""
+- 
+  file: sodavi_ct3_compte-rendu.pdf
+  legende: "Chantier 3 > Les parcours de l'artiste"
+  type: doc
+  link: ""
+- 
+  file: sodavi_2019_livret.pdf
+  legende: Livret de la phase 02 de concertation
+  type: doc
+  link: ""
+- 
+  file: sodavi_2019_detachable.pdf
+  legende: Synthèse du livret
+  type: doc
+  link: ""
+
+----
+
+Accueil: non
+
+----
+
+Uuid: NPxVMuaMswzoHcWS

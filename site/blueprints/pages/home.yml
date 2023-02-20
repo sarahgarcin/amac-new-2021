@@ -1,0 +1,24 @@
+title: Accueil
+
+columns:
+  sidebar:
+    width: 1/3
+    sections:
+      files:
+        type: files
+        label: Fichiers / Images
+  main:
+    width: 2/3
+    sections:
+      content:
+        type: fields
+        fields:
+          description:
+            label: Texte description
+            type:  markdown
+          production:
+            label: Texte production
+            type:  markdown
+          formation:
+            label: Texte formation
+            type:  markdown

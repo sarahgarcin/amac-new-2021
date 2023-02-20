@@ -5,7 +5,7 @@
 	<h1><?php echo $page->title()->html()?></h1>
 	<div class="actu-grid images-grid col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
 		<ul class="row">
-			<?php foreach($page->children()->visible() as $project):?>
+			<?php foreach($page->children()->listed() as $project):?>
 				<li class="col-xs-12 col-sm-4 col-md-4 draggable">
 					<div class="actu-wrapper">
 						<a class="no-underline" href="<?php echo $project->url() ?>" title="<?php echo $project->title() ?>">
@@ -13,7 +13,7 @@
 								<h2><?php echo $project->title()->html() ?></h2>
 								<div>
 									<!-- <?php //echo truncate($project->text()->kirbytext(), 200, '…', false, true); ?> -->
-									<p><?php echo excerpt($project->text(), 200) ?></p>
+									<p><?php echo $project->text()->excerpt(200) ?></p>
 								</div>
 								<div class="actu-infos" >
 									<span class="date-actu"><?php echo $project->date('d / m / Y')?></span>

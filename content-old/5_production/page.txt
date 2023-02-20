@@ -1,0 +1,100 @@
+Title: Production
+
+----
+
+Chapeau: 
+
+----
+
+Pictures:
+
+- 
+  thumb:
+    - file://eGRN3Eg3CjnlSOUU
+  text: "L'âne qui écoute"
+  link: http://amac-web.com
+- 
+  thumb:
+    - file://bB7HaIGe6FVSYzje
+  text: 'Sophie Bruère — *Prima vera*'
+  link: http://amac-web.com
+- 
+  thumb:
+    - file://eGRN3Eg3CjnlSOUU
+  text: 'Cécile Pitois — *L’âne qui écoute*'
+  link: http://amac-web.com
+
+----
+
+Text:
+
+amac accompagne les collectivités, structures des arts visuels et associations dans la **mise en œuvre de projets artistiques et culturels**, de la conception à la réalisation, prenant ainsi en charge la production et la coordination de l’ensemble du projet. amac s’appuie sur un réseau de collaborateurs et de professionnels experts pour constituer une équipe dédiée au projet.
+
+amac accompagne également chaque année des artistes dans la conduite de projets personnels tels que des éditions, des commandes publics ou 1% artistique, lors des phases de candidature et/ou de réalisation.  
+Ce positionnement s’inscrit aujourd’hui en toute logique avec le développement des activités de l’agence vers l’accompagnement de projet et la production artistique, et dans la nécessité de soutenir les artistes dans la diffusion et la promotion de leur travail.
+
+----
+
+Infos:
+
+#### Contact :
+amac > Paris
+(email: celine.guimbertaud@amac-web.com text: Céline Guimbertaud)
+(email: mc.gain-hautbois@amac-web.com text: Marie-Charlotte Gain-Hautbois)
+t. 01 71 76 63 97
+
+#### Réalisations : 
+**2020-21**
+**Cécile Pitois** — *L'âne qui écoute*
+accompagnement à la réalisation d'un 1% artistique
+_ Gignac
+
+**Sophie Bruère** — *Marcescent*
+accompagnement à la réalisation d'une œuvre dans l'espace public
+_ Bondy
+
+**2019-20**
+**Sophie Bruère** — *(link: http://www.sophiebruere.com/ text: Sève popup: yes)*
+accompagnement à la réalisation d'une œuvre dans l'espace public
+_ Bondy
+
+**2018**
+**Anne de Vandière **— *(link: /production/tribus-du-monde-par-anne-de-vandiere text: Tribus du Monde)*
+Coordination et communication
+_ Paris / Massignac / Brest
+
+**2017**
+**Sophie Bruère** — *(link: http://www.sophiebruere.com/ text: Panorama popup: yes)*
+accompagnement à la réalisation d'une œuvre dans l'espace public
+_ Ville de Paris
+
+**Nicolas Momein** —*(link: https://www.nicolasmomein.com/travaux.html text: Blocs - Calé popup: yes)* 
+accompagnement sur l'étude d'un 1% artistique 
+_ Saint-Maur-des-Fossés
+
+**Cécile Pitois** —*(link: /production/la-danseuse-de-lumiere-et-ses-arc-s text: La danseuse de Lumière et ses Arc's)* 
+accompagnement à la réalisation d'une commande artistique
+_ Vitry-sur-Seine
+
+**2016**
+**Céline Ahond** —*(link: http://amac-web.com/production/jouer-a-faire-semblant-pour-de-vrai text: Jouer à faire semblant pour de vrai)* 
+accompagnement à la réalisation d'un 1% artistique 
+_ Bondy
+
+**2015**
+**Secours populaire français ** — *(link: /production/recto-verso/ text: recto/verso)*
+coordination générale d'une exposition et vente aux enchères « à l’aveugle »  
+_ Fondation Louis Vuitton, Paris
+
+**2013**
+*(link: /production/nuit-blanche/ text: Nuit blanche)*
+coordination de la communication
+_ Ville de Paris
+
+----
+
+Ressources: 
+
+----
+
+Uuid: hOHVhrrCE4T3c7Cf

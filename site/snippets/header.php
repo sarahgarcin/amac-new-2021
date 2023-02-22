@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-  <meta name="description" content="<?php echo $site->description()->html() ?>">
+  <meta name="description" content="<?php if($page->description()->isNotEmpty()): echo $page->description(); else: echo $site->description()->html(); endif;?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
   <meta name="author" content="<?php echo $site->author()->html() ?>">
 
   <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
 
-  <?php echo css('bower_components/photoswipe/dist/photoswipe.css') ?>
-  <?php echo css('bower_components/photoswipe/dist/default-skin/default-skin.css') ?>
-  <?php echo css('assets/css/flexboxgrid.min.css') ?>
-  <?php echo css('assets/css/main.css') ?>
+  <?php if($kirby->option('env') == 'local'):?>
+    <?= css('node_modules/@fancyapps/ui/dist/fancybox.css') ?>
+    <?= css('assets/css/flexboxgrid.min.css') ?>
+    <?= css('assets/css/main.css') ?>
+  <?php else: ?>
+    <?= css('assets/css/plugins.min.css') ?>
+    <?= css('assets/production/main.min.css') ?>
+  <?php endif;?>
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn’t work if you view the page via file:// -->

@@ -5,15 +5,16 @@
 	<h1><?php echo $page->title()->html()?></h1>
 	
 	<div class="row col-xs-12 col-sm-11 col-md-8 col-sm-offset-1 col-md-offset-2">
-		<div class="images-projet photoswipe col-xs-12 col-sm-7" itemscope itemtype="http://schema.org/ImageGallery">
+		<div class="images-projet col-xs-12 col-sm-7">
 			<div class="row">
 				<?php foreach($page->images() as $image): ?>
-						<figure class="col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <a href="<?= $image->url(); ?>" itemprop="contentUrl" data-size="<?= $image->width(); ?>x<?= $image->height(); ?>"
-                   title="<?= $image->text()->value(); ?>">
-                    <img src="<?php echo $image->thumb(['width' => 300, 'quality' => 80,])->url() ?>" itemprop="thumbnail" alt="<?= $page->title()->value() ?> <?= $image->text()->value(); ?>" class="img-responsive"/>
-                </a>
-                <figcaption itemprop="caption description"><?= $image->text()->kirbytext() ?></figcaption>
+						<figure class="col-xs-6">
+							<a href="<?= $image->url()?>" 
+							title="<?= $image->caption()?>" 
+							data-fancybox="gallery"
+  						data-caption="<?= $image->caption()->html() ?>">
+  							<img src="<?php echo $image->thumb(['width' => 300, 'quality' => 80,])->url() ?>" itemprop="thumbnail" alt="<?= $image->alt()?>" class="img-responsive"/>
+  						</a>
             </figure>
 						</a>
 				<?php endforeach ?>

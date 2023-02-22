@@ -4,6 +4,7 @@
 
 
 <main class="content">
+	<h1 style="visibility: hidden;"><?= $site->title() ?></h1>
 	<div class="description-amac col-xs-12 col-sm-6 col-md-4">
 		<?php echo $page->description()->kirbytext()?>
 	</div>
@@ -28,7 +29,7 @@
 							<div class="actu-wrapper">
 								<div class="actu-texte">
 									<h2><?php echo $actu->title()->html() ?></h2>
-									<p><?php echo $actu->text()->excerpt(200, false) ?></p>
+									<?php echo $actu->text()->excerpt(200, false) ?>
 									<div class="actu-infos">
 										<span class="date-actu"><?php echo $actu->date('d / m / Y')?></span>
 										<a class="lire-plus" href="<?php echo $actu->url()?>" title="<?php echo $actu->title()?>">Lire la suite</a>
@@ -36,7 +37,7 @@
 								</div>
 								<?php $image = $actu->thumb()->toFile(); ?>
 								<div class="actu-image <?php e($image->isPortrait(), ' portrait', ' landscape') ?>">
-				 					<img src="<?php echo $image->url(); ?>" alt="<?php echo $image->name()?>">
+				 					<img src="<?php echo $image->url(); ?>" alt="<?php echo $image->alt()?>">
 								</div>
 							</div>
 					</li>

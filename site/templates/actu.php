@@ -12,7 +12,7 @@
 			<ul>
 				<?php foreach($page->images() as $image): ?>
 					<li>
-					<?php echo thumb($image, array('width' => 600)); ?>
+					<?php echo $image->thumb()?>
 					</li>
 				<?php endforeach ?>
 			</ul>
@@ -21,22 +21,5 @@
 	</div>
 </main>
 
-<!-- <div class="content row">
-	<h2><?php echo $page->title()->html()?></h2>
-	<div class="actu-texte small-6 columns">
-		<?php echo $page->date('d / m / Y') ?>
-		<?php echo $page->text()->kirbytext()?>
-	</div>
-	<div class="actu-images small-6 columns">
-		<ul>
-			<?php foreach($page->images() as $image): ?>
-				<li>
-				<?php echo thumb($image, array('width' => 600)); ?>
-				</li>
-			<?php endforeach ?>
-		</ul>
-	</div>
-	
-</div> -->
 
 <?php snippet('footer') ?>

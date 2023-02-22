@@ -19,7 +19,7 @@
 				<?php foreach ($site->menuactu()->split() as $p): ?>
 					<?php $p = $site->find($p);?>
 				  <li>
-				  	<a class="<?= r($p->isOpen(), 'active') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+				  	<a class="<?= r($p->isOpen(), 'active') ?>" href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
 				  </li>
 				<?php endforeach ?>
 			</ul>
@@ -27,7 +27,7 @@
 				<?php foreach ($site->menuequipe()->split() as $p): ?>
 					<?php $p = $site->find($p);?>
 				  <li>
-				  	<a class="<?= r($p->isOpen(), 'active') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+				  	<a class="<?= r($p->isOpen(), 'active') ?>" href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
 				  </li>
 				<?php endforeach ?>
 			</ul>
@@ -35,9 +35,19 @@
 				<?php foreach ($site->menunewsletter()->split() as $p): ?>
 					<?php $p = $site->find($p);?>
 				  <li>
-				  	<a class="<?= r($p->isOpen(), 'active') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+				  	<a class="<?= r($p->isOpen(), 'active') ?>" href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
 				  </li>
 				<?php endforeach ?>
+			</ul>
+			<ul class="social-network">
+				<?php $socials = $site->socialnetworks()->toStructure();?> 
+				<?php foreach($socials as $social): ?>
+					<li>
+		        <a href="<?= $social->link()?>" title="<?= $social->title()?>" target="_blank">
+		        	<i class="fa-brands <?= $social->icon()?>"></i>
+		        </a>
+	        </li>
+      	<?php endforeach; ?>
 			</ul>
 		</ul>
 	</nav>

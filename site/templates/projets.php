@@ -24,7 +24,7 @@
 					<?php $image = $project->thumb()->toFile();?>
 					<div class="actu-image <?php e($image->isPortrait(), ' portrait', ' landscape') ?>">
 						<a href="<?php echo $project->url() ?>" title="<?php echo $project->title() ?>">
-							<img src="<?php echo $image->url(); ?>" alt="<?php echo $image->name()?>">
+							<img src="<?php echo $image->url(); ?>" alt="<?php echo $image->alt()?>">
 						</a>
 					</div>
 					</div>

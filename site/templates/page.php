@@ -10,7 +10,7 @@
 					<a href="<?php echo $pic->url()?>" title="">
 						<figure>
 							<?php $image = $pic->thumb()->toFile()?>
-							<img src="<?php echo $image->url()?>" alt="">
+							<img src="<?php echo $image->url()?>" alt="<?php echo $image->alt()?>">
 							<figcaption><?php echo $pic->text()->kt()?></figcaption>
 						</figure>
 					</a>

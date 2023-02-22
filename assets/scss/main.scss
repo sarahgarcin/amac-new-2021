@@ -1,5 +1,5 @@
 // I M P O R T
-@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+@import "../../bower_components/font-awesome/css/font-awesome.min.css";
 @import "_variables.scss";
 
 *{
@@ -76,6 +76,11 @@ input[type='button'], #mc_embed_signup .button{
 
 .no-underline{
 	text-decoration:none !important;
+}
+
+.fa-brands{
+	font-family: "FontAwesome";
+	font-style: normal;
 }
 
 main{
@@ -206,6 +211,13 @@ header{
 				&::before{color: #000;}
 			}
 		}
+	}
+	.social-network li{
+		display: inline-block;
+		margin-right: 7px;
+		margin-top: 5px;
+		font-size: 18px;
+
 	}
 }
 
@@ -541,13 +553,6 @@ body[data-template="contact"]{
 			color: #000;
 			display:block;
 			font-weight: normal;
-		}
-	}
-	.social-network{
-		&:before{
-			content:"—";
-			color: #000;
-			display:block;
 		}
 	}
 }

@@ -15,6 +15,7 @@ $(document).ready(function(){
 });
 
 function init(){
+
 	// -------------- OPEN MENU MOBILE --------------- //
 	var menuBtn = document.querySelector('.mobile-menu_btn');
 	var nav = $('.nav');
@@ -127,7 +128,7 @@ function init(){
 
 		// si l'image dépasse à droite, clone l'image et la met à gauche
 		if(xPos > (windowW - thisWidth)){
-			console.log(xPos-  (windowW - thisWidth) );
+			// console.log(xPos-  (windowW - thisWidth) );
 			// Nombre de pixels qui dépassent sur la droite
 			var depassementVal = xPos -  (windowW - thisWidth);
 			// nouvelle position de x à gauche 

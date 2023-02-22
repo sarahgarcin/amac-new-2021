@@ -10,6 +10,12 @@ columns:
       pages:
         type: pages
         label: Pages
+      fields: 
+        type: fields
+        fields: 
+          description: 
+            label: Description pour les moteurs de recherche
+            type: textarea
   main:
     width: 2/3
     sections:

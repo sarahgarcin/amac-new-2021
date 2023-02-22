@@ -15,6 +15,7 @@ return [
     	'space.frenchquote'  => '&#8239;',
     	'space.thousand'  => '',
     	'space.unit'  => ' '
-    ]
+    ],
+    'env' => 'prod',
 ];
 

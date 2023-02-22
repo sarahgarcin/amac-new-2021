@@ -22,8 +22,7 @@ var pluginsScripts = [
   'bower_components/jquery/dist/jquery.min.js',
   'bower_components/jquery-ui/jquery-ui.min.js',
   'assets/js/libs/jquery.ui.touch-punch.min.js',
-  'bower_components/photoswipe/dist/photoswipe.min.js',
-  'bower_components/photoswipe/dist/photoswipe-ui-default.min.js'
+  'node_modules/@fancyapps/ui/dist/fancybox.umd.js'
 ];
 var userScripts = [
   'assets/js/main.js'
@@ -31,6 +30,10 @@ var userScripts = [
 
 var localDevUrl = '';
 
+var pluginsCss = [
+  'node_modules/@fancyapps/ui/dist/fancybox.css',
+  'assets/css/flexboxgrid.min.css'
+];
 
 /*
 
@@ -93,6 +96,14 @@ gulp.task('css', ['scss'], function (done) {
     .pipe(gulp.dest('assets/production'));
 });
 
+// Concatenate CSS plugin
+gulp.task('css-plugins', function() {
+  return gulp.src(pluginsCss)
+    .pipe(concat('plugins.css'))
+    .pipe(gulp.dest('assets/css'))
+    .pipe(browserSync.stream());
+});
+
 
 
 // Lint Task
@@ -138,7 +149,7 @@ gulp.task('init-live-reload', function() {
 
 // Watch Files For Changes
 gulp.task('dev-watch', function() {
-  gulp.watch( userScripts, ['lint', 'script-plugins']);
+  gulp.watch( userScripts, ['lint', 'script-plugins', 'css-plugins']);
   gulp.watch( 'assets/scss/*.scss', ['scss']);
 });
 
@@ -150,7 +161,7 @@ gulp.task('dev-watch-sync', ['init-live-reload', 'dev-watch']);
 
 
 // Production Task
-gulp.task('prod', ['lint', 'scss', 'css', 'script-plugins', 'scripts']);
+gulp.task('prod', ['lint', 'scss', 'css', 'script-plugins', 'scripts', 'css-plugins']);
 
 
 

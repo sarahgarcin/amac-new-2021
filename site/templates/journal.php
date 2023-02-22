@@ -28,7 +28,7 @@
 							<ul>
 							<?php foreach($actu->images() as $image):?>
 								<li class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 draggable">
-									<img src="<?php echo $image->url(); ?>" alt="<?php echo $image->name()?>">
+									<img src="<?php echo $image->url(); ?>" alt="<?php echo $image->alt()?>">
 								</li>
 							<?php endforeach ?>
 							</ul>

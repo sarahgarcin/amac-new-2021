@@ -16,18 +16,4 @@
 	</div>
 </main>
 
-<!-- <div class="content">
-	<h1><?php echo $page->title()->html()?></h1>
-	<div class="row small-12 medium-7 large-7">
-		<div class="artistes small-12 medium-6 large-6 columns">
-			<h4>Artistes</h4>
-			<?php echo $page->artistes()->kirbytext()?>
-		</div>
-		<div class="institutions small-12 medium-6 large-6 columns">
-			<h4>Institutions</h4>
-			<?php echo $page->institutions()->kirbytext()?>
-		</div>
-	</div>
-</div> -->
-
 <?php snippet('footer') ?>

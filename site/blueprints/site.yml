@@ -83,10 +83,13 @@ tabs:
               icon:
                 label: Icône
                 type:  text
-                width: 1/2
                 icon:  share-alt
+                help: Pour trouver l'icône approprié https://fontawesome.com/search
               link:
                 label: Lien
                 type:  text
-                width: 1/2
                 icon:  link
+              title:
+                label: Titre
+                type:  text
+                icon:  text

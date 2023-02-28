@@ -31,8 +31,8 @@
 									<h2><?php echo $actu->title()->html() ?></h2>
 									<?php echo $actu->text()->excerpt(200, false) ?>
 									<div class="actu-infos">
-										<span class="date-actu"><?php echo $actu->date('d / m / Y')?></span>
-										<a class="lire-plus" href="<?php echo $actu->url()?>" title="<?php echo $actu->title()?>">Lire la suite</a>
+										<span class="date-actu"><?= $actu->date()->toDate('d/m/Y')?></span>
+										<a class="lire-plus" href="<?= $site->find('journal')->url() ?>#<?= $actu->uid() ?>" title="<?= $actu->title()?>">Lire la suite</a>
 									</div>
 								</div>
 								<?php $image = $actu->thumb()->toFile(); ?>

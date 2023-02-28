@@ -17,9 +17,9 @@ columns:
             label: Date
             type: date
             default: today
-            format: DD/MM/YYYY
+            display: DD/MM/YYYY
           text:
-            label: Text
+            label: Texte
             type:  markdown
           thumb:
             label: Vignette du projet

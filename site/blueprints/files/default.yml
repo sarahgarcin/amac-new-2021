@@ -18,5 +18,5 @@ columns:
         type: fields
         fields:
           alt:
-            label: Alternative Text
+            label: Texte alternatif
             type: text

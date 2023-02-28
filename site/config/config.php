@@ -11,7 +11,7 @@ return [
     	'space.endash'  => ' ',
     	'space.colon'  => '&#8239;',
     	'space.semicolon'  => '&#8239;',
-    	'space.marks'  => ' ',
+    	'space.marks'  => '&#8239;',
     	'space.frenchquote'  => '&#8239;',
     	'space.thousand'  => '',
     	'space.unit'  => ' '

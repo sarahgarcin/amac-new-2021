@@ -7,10 +7,11 @@ $(document).ready(function(){
 		$('main').fadeIn(600);
 		$('footer').fadeIn(600);
 		// position et clonage des titre de pages aléatoires
+		init();
 		randomTitlePos();
 	});
 
-	init();
+	
 
 });
 
@@ -67,6 +68,15 @@ function init(){
 	// JS FOR JOURNAL
 	// OPEN AND CLOSE ACTU
 	if($('body').attr('data-template') == 'journal'){
+
+		if(window.location.hash) {
+			var thisId = window.location.hash;
+		  $(thisId).addClass('active');
+		  $('html, body').animate({
+        scrollTop: $(thisId).offset().top
+    }, 1000);
+		} 
+
 		$('.arrow .close').on('click', function(){
 			$(this).parents('.actus.active').removeClass('active');
 		});

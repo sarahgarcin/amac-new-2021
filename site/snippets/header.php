@@ -15,7 +15,7 @@
     <?= css('assets/css/flexboxgrid.min.css') ?>
     <?= css('assets/css/main.css') ?>
   <?php else: ?>
-    <?= css('assets/css/plugins.min.css') ?>
+    <?= css('assets/css/plugins.css') ?>
     <?= css('assets/production/main.min.css') ?>
   <?php endif;?>
 
@@ -26,19 +26,35 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-  <meta name="og:site_name" content="<?php echo $site->ogsite_name()->html() ?>">
-  <meta name="og:description" content="<?php echo $site->description()->html() ?>">
-  <meta name="og:url" content="<?php echo $site->url() ?>">
-  <meta name="og:image" content="<?php echo $site->ogimage()->html() ?>">
+  <?php 
+    if($page->description()->isNotEmpty()):
+      $description = $page->description();
+    else:
+      $description = $site->description();
+    endif;
+  ?>
+
+  <?php 
+    if($page->imgSocial()->isNotEmpty()):
+      $imgSocial = $page->imgSocial()->toFile();
+    else:
+      $imgSocial = $site->ogimage()->toFile();
+    endif;
+  ?>
+
+
+  <meta name="og:site_name" content="<?= $site->title() ?>">
+  <meta name="og:description" content="<?= $description ?>">
+  <meta name="og:url" content="<?= $site->url() ?>">
+  <meta name="og:image" content="<?= $imgSocial->url() ?>">
   <meta name="og:type" content="website">
 
-  <meta name="twitter:title" content="<?php echo $site->title()->html() ?>">
-  <meta name="twitter:description" content="<?php echo $site->description()->html() ?>">
-  <meta name="twitter:url" content="<?php echo $site->url() ?>">
-  <meta name="twitter:image" content="<?php echo $site->ogimage()->html() ?>">
+  <meta name="twitter:title" content="<?= $site->title() ?>">
+  <meta name="twitter:description" content="<?= $description ?>">
+  <meta name="twitter:url" content="<?= $site->url() ?>">
+  <meta name="twitter:image" content="<?= $imgSocial->url() ?>">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="">
-  <meta name="twitter:creator" content="<?php echo $site->author()->html() ?>">
+  <meta name="twitter:creator" content="<?= $site->author()->html() ?>">
 
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">

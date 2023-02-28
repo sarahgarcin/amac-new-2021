@@ -71,8 +71,8 @@ tabs:
             type:  headline
           ogimage:
             label: Vignette pour les réseaux sociaux 
-            type:  url
-            help:  URL de l'image vignette qui représentera votre site sur les réseaux sociaux..
+            type:  files
+            help:  Image vignette qui représentera votre site sur les réseaux sociaux
           socialnetworks:
             label: Réseaux sociaux
             type:  structure

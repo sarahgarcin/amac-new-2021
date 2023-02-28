@@ -8,17 +8,14 @@
 		<ul>
 			<?php $firstActu = $actualites->first() ?>
 				<?php foreach($actualites as $actu):?>
-					<li class="actus <?php e($actu == $firstActu,'active')?>">
+					<li class="actus <?php e($actu == $firstActu,'active')?>" id="<?= $actu->uid() ?>">
 						<div class="actu-name">
 							<div class="actu-date">
-								<span><?php echo $actu->date('d / m / Y') ?></span>
+								<span><?= $actu->date()->toDate('d/m/Y')?></span>
 							</div>
 							<h2><?php echo $actu->title()->html()?></h2>	
 						</div>
 						<div class="actu-resume">
-							<!-- Cette fonction est dans plugins > truncate > truncate.php -->
-							<!--  truncate($string, nombre de caractères, caractère(s) de fin, exactitude, prendre en compte le html) -->
-							<!-- <?php //echo truncate($actu->text()->kirbytext(), 200, '…', false, true); ?> -->
 							<p><?php echo $actu->text()->excerpt(200); ?></p>
 						</div>
 						<div class="actu-text">

@@ -10,6 +10,10 @@ columns:
               description: 
                 label: Description pour les moteurs de recherche
                 type: textarea
+            imgSocial: 
+                label: Image pour les réseaux sociaux
+                type: files
+                query: page.images
     main:
         width: 2/3
         sections:
